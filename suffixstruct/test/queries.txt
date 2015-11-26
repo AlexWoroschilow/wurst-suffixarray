@@ -1,0 +1,3 @@
+/Users/steve/salami_lib/pvecs/1itkA.seq
+/Users/steve/salami_lib/pvecs/1ub2A.seq
+/Users/steve/salami_lib/pvecs/2dv1A.seq

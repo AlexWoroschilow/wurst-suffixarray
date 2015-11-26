@@ -1,0 +1,50 @@
+
+/*
+ *  imbsubst.c
+ *  calculate the imbiss substitution matrix
+ *
+ *  @author Steve Hoffmann
+ *  @email shoffmann@zbh.uni-hamburg.de
+ *  @date 02/19/07 16:27:50 CET
+ *  
+ */
+
+ #include <stdlib.h>
+ #include <stdio.h>
+ #include "memory.h"
+ #include "basic-types.h"
+ #include "prob_vec.h"
+ #include "falphabet.h"
+ #include "sort.h"
+ #include "intsequence.h"
+ #include "cantor.h"
+ #include "encodeprobvec.h"
+ #include "mathematics.h"
+ #include "createalphabet.h"	
+
+
+
+/*--------------------------------- avgpvec ----------------------------------
+ *    
+ * assign pvecs to character and sum up to get avg pvec 
+ * 
+ */
+
+ float** 
+ avgpvec (void *space, FAlphabet *alphabet, float** avg, 
+	 	 struct prob_vec *pvec, Uint a, Uint b,
+		 Uint (*assign)(void *, FAlphabet *, float *, Uint, void*),
+		 &info){
+	
+   Uint i, ndx; 
+ 	
+ 	for (i=a; i < b; i++) {	
+	    ndx = assign(space, alphabet, pvec->mship[i], pvec->n_class, info);
+	    for(j=0; j < pvec_nclass; j++) {
+			avg[ndx][j] += pvec->mship[i][j]; 
+		}		
+	}
+	
+	return avg;
+ }
+

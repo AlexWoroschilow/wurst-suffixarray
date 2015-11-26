@@ -1,0 +1,206 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ABS	mathematics.h	46;"	d
+ALLOCMEMORY	memmac.h	4;"	d
+ALLOCMEMORY	memory.h	7;"	d
+APPENDCHAR	stringutils.h	31;"	d
+APPENDVEC	mathematics.h	25;"	d
+BASIC_TYPES_H	basic-types.h	2;"	d
+BLAST_Expm1	mathematics.c	/^double BLAST_Expm1(double x)$/;"	f
+BOOL	basic-types.h	/^typedef unsigned char BOOL;$/;"	t
+BOYER_MOORE_H	boyermoore.h	2;"	d
+CANTOR_H	cantor.h	2;"	d
+COPYSTR	stringutils.h	20;"	d
+CR	stringutils.h	14;"	d
+CRLF	basic-types.h	5;"	d
+CRLF	basic-types.h	7;"	d
+DBL_EPSILON	mathematics.h	49;"	d
+DPALIGN_H	dpalign.h	3;"	d
+DQT	stringutils.h	16;"	d
+EMPTYVEC	mathematics.h	40;"	d
+FF	stringutils.h	13;"	d
+FILEIO_H	fileio.h	2;"	d
+FLT_EPSILON	mathematics.h	48;"	d
+FREEMEMORY	memmac.h	5;"	d
+FREEMEMORY	memory.h	8;"	d
+False	basic-types.h	18;"	d
+HASH_H	hash.h	2;"	d
+INDENT	stringutils.h	24;"	d
+INITMATRIX	mathematics.h	14;"	d
+INITMATRIX2D	mathematics.h	15;"	d
+INITMATRIX3D	mathematics.h	16;"	d
+INITVECTOR	mathematics.h	17;"	d
+ISQUOTE	stringutils.h	27;"	d
+ISWHITESPACE	stringutils.h	25;"	d
+LENGTHVEC	mathematics.h	21;"	d
+LF	stringutils.h	11;"	d
+LISTNILVALUE	list.h	17;"	d
+LIST_H	list.h	2;"	d
+List	list.h	/^} List;$/;"	t	typeref:struct:__anon2
+Listelem	list.h	/^ } Listelem;$/;"	t	typeref:struct:__anon1
+MATRIX2D	mathematics.h	9;"	d
+MATRIX3D	mathematics.h	10;"	d
+MAX	mathematics.h	41;"	d
+MAX3	mathematics.h	42;"	d
+MAX4	mathematics.h	43;"	d
+MAXBUFFERSIZE	basic-types.h	11;"	d
+MAX_DOUBLE	mathematics.h	45;"	d
+MEMMAC_H	memmac.h	2;"	d
+MEMMAN_H	memman.h	34;"	d
+MEMORY_H	memory.h	2;"	d
+MIN	mathematics.h	44;"	d
+QUEUEDEF_H	queuedef.h	35;"	d
+Queue	queuedef.h	/^} Queue;$/;"	t	typeref:struct:__anon6
+Queueelem	queuedef.h	/^typedef int Queueelem;$/;"	t
+RESIZEVEC	mathematics.h	20;"	d
+REVERSEVEC	mathematics.h	36;"	d
+SETSTR	stringutils.h	28;"	d
+SETSTRLEN	stringutils.h	29;"	d
+SORT_H	sort.h	2;"	d
+SP	stringutils.h	15;"	d
+SQT	stringutils.h	17;"	d
+STACK_H	stack.h	34;"	d
+STACK_NULL_TYPE	stack.h	41;"	d
+STRINGUTILS_H	stringutils.h	2;"	d
+SWAPUINT	mathematics.h	31;"	d
+SWAPVEC	mathematics.h	26;"	d
+SWEEPVEC	mathematics.h	22;"	d
+Sint	basic-types.h	/^typedef int Sint;$/;"	t
+Spaceblock	memman.h	/^} Spaceblock;$/;"	t	typeref:struct:__anon4
+Spacetable	memman.h	/^} Spacetable;$/;"	t	typeref:struct:__anon5
+Stack	stack.h	/^} Stack;$/;"	t	typeref:struct:__anon7
+Stackelement	stack.h	/^typedef int Stackelement;$/;"	t
+TAB	stringutils.h	10;"	d
+True	basic-types.h	17;"	d
+Uint	basic-types.h	/^typedef unsigned int Uint;$/;"	t
+VECTOR	mathematics.h	11;"	d
+VT	stringutils.h	12;"	d
+_MATHEMATICS_H_	mathematics.h	2;"	d
+activeblocks	memman.c	/^void activeblocks(Spacetable *st) {$/;"	f
+addString	stringutils.c	/^void addString(void *space, stringset_t *set, char *string, Uint len) {$/;"	f
+allocated	list.h	/^	Uint allocated,$/;"	m	struct:__anon2
+allocmemory	memman.c	/^void *allocmemory(char *file, int line, Spacetable *st, void *ptr, int size, int number) {$/;"	f
+appendvector	mathematics.c	/^void appendvector(void *space, vector_t *v, vectorelem elem) { $/;"	f
+arraymax	mathematics.c	/^int arraymax(int *arr, int l) {$/;"	f
+attachext	stringutils.c	/^attachext (void *space, char *str, Uint l, char *ext, Uint m)$/;"	f
+attachpath	stringutils.c	/^attachpath (void *space, char *str, Uint l, char *path, Uint m,  $/;"	f
+badChar	boyermoore.c	/^ badChar(void *space, void *alphabet, Uint asize, $/;"	f
+binarySearch	sort.c	/^ Uint binarySearch(void *toSearch, Uint size, void *key, $/;"	f
+blocks	memman.h	/^	Spaceblock *blocks;$/;"	m	struct:__anon5
+boyerMoore	boyermoore.c	/^ boyerMoore(void *space, void *alphabet, Uint asize, $/;"	f
+checkspaceleak	memman.c	/^void checkspaceleak(Spacetable *st) {$/;"	f
+cmp_dbl	sort.c	/^ Uint cmp_dbl(Uint a, Uint x, void *data, void *info) {$/;"	f
+cmp_flt	sort.c	/^Uint cmp_flt(Uint a, Uint x, void *data, void *info) {$/;"	f
+cmp_int	sort.c	/^ Uint cmp_int(Uint a, Uint x, void *data, void *info) {$/;"	f
+cmp_int_bin	sort.c	/^ Uint cmp_int_bin(Uint a, void *data, void *key, void *info) {$/;"	f
+codeCantor	cantor.c	/^ Uint codeCantor(vector_t *v) {$/;"	f
+code_2tupel_cantor	cantor.c	/^ Uint code_2tupel_cantor(Uint i, Uint j) {$/;"	f
+compareMkstr	sort.c	/^ compareMkstr(Uint a, Uint b, Uint depth, $/;"	f
+compareMkstrptr	sort.c	/^ compareMkstrptr(Uint a, Uint b, Uint depth, $/;"	f
+concat	stringutils.c	/^char* concat(void *spacetab, char* strA, char* strB, int lenA, int lenB) {$/;"	f
+concatdelim	stringutils.c	/^char* concatdelim(void *spacetab, char* strA, char* strB, int lenA, int lenB, char delim) {$/;"	f
+constscr	dpalign.c	/^constscr (symtype a, symtype b, void *info)$/;"	f
+data	list.h	/^ 	void *data;$/;"	m	struct:__anon1
+dataList	list.c	/^dataList (void *space, List *l)$/;"	f
+decodeCantor	cantor.c	/^vector_t *decodeCantor(void *space, Uint code, Uint n) {$/;"	f
+decode_2tupel_cantor	cantor.c	/^vector_t *decode_2tupel_cantor(void *space, Uint i) {$/;"	f
+dequeue	queuedef.c	/^Queueelem dequeue(Queue *q) {$/;"	f
+dequeueindex	queuedef.h	/^			dequeueindex,$/;"	m	struct:__anon6
+destructStack	stack.c	/^ void destructStack(void *spacetab, Stack *stack) {$/;"	f
+destructStringset	stringutils.c	/^void destructStringset(void *space, stringset_t *s) {$/;"	f
+destructVector	mathematics.c	/^void destructVector(void *space, vector_t *v) {$/;"	f
+dumpMatrix3D_int	mathematics.c	/^ void dumpMatrix3D_int(int *M, int m, int n, int l) {$/;"	f
+dumpMatrix_Uint	mathematics.c	/^void dumpMatrix_Uint(Uint *M, Uint m, Uint n) {$/;"	f
+dumpMatrix_int	mathematics.c	/^void dumpMatrix_int(int *M, int m, int n) {$/;"	f
+dumpVector	mathematics.c	/^void dumpVector(vector_t *v) {$/;"	f
+edist	dpalign.c	/^Uint edist(void *space, symtype *sa, Uint lena, symtype *sb, Uint lenb, $/;"	f
+elements	mathematics.h	/^	vectorelem *elements;$/;"	m	struct:__anon3
+emptyqueue	queuedef.c	/^void emptyqueue(Spacetable *spacetab, Queue *q, int queuesize) {$/;"	f
+enqueue	queuedef.c	/^void enqueue(Spacetable *spacetab, Queue *q, Queueelem elem) {$/;"	f
+enqueueindex	queuedef.h	/^	int 	enqueueindex,$/;"	m	struct:__anon6
+f	newton.c	/^double f(double x) {$/;"	f
+f_cantor	cantor.c	/^Uint f_cantor(Uint w) {$/;"	f
+f_prime	newton.c	/^double f_prime(double x) {$/;"	f
+fak	mathematics.c	/^Uint fak(Uint n) {$/;"	f
+fileallocated	memman.h	/^	char* fileallocated;$/;"	m	struct:__anon4
+firstNode	list.h	/^		 firstNode,$/;"	m	struct:__anon2
+freememory	memman.c	/^void freememory(char* file, int line, Spacetable *st, void *ptr) {$/;"	f
+gcd	mathematics.c	/^gcd (int a, int b)$/;"	f
+getASCIIcode	boyermoore.c	/^ Uint getASCIIcode(void * alphabet, Uint asize, void *p, Uint pos) {$/;"	f
+goodSuffix	boyermoore.c	/^ goodSuffix(void *space, void *alphabet, Uint asize,$/;"	f
+initArray	mathematics.c	/^ void *initArray(void *space, int size, size_t datatype) {$/;"	f
+initList	list.c	/^initList (void *space, Uint elems)$/;"	f
+initProgressBarVT	vtprogressbar.c	/^initProgressBarVT ()$/;"	f
+initStack	stack.c	/^  void initStack(void *spacetab, Stack *stack, int size) {$/;"	f
+initStringset	stringutils.c	/^stringset_t *initStringset(void *space) {$/;"	f
+initmemoryblocks	memman.c	/^void initmemoryblocks(Spacetable *st, int numberofblocks) {$/;"	f
+insertAfter	list.c	/^insertAfter(void *space, List *l, Uint cur, void *data) { $/;"	f
+insertBefore	list.c	/^insertBefore(void *space, List *l, Uint cur, void *data) {	$/;"	f
+jenkinshash	hash.c	/^jenkinshash (unsigned char *key, int len)$/;"	f
+knuthhash	hash.c	/^knuthhash(unsigned char *key, int len) {$/;"	f
+lastNode	list.h	/^		 lastNode,$/;"	m	struct:__anon2
+lastalloced	memman.h	/^		lastalloced,$/;"	m	struct:__anon5
+lastfreed	memman.h	/^		lastfreed;$/;"	m	struct:__anon5
+len	stringutils.h	/^	Uint len;$/;"	m	struct:__anon8
+length	list.h	/^		 length;$/;"	m	struct:__anon2
+length	mathematics.h	/^	int length;$/;"	m	struct:__anon3
+lineallocated	memman.h	/^	int lineallocated;$/;"	m	struct:__anon4
+main	newton.c	/^int main() {$/;"	f
+my_itoa	stringutils.c	/^my_itoa (int value, char *buffer, Uint radix)$/;"	f
+newton	newton.c	/^double newton(double x_0, double tol, int max_iters, $/;"	f
+next	list.h	/^	Uint next,$/;"	m	struct:__anon1
+nextPermutation	mathematics.c	/^int nextPermutation(vector_t *v) {$/;"	f
+nextfree	list.h	/^		 nextfree,$/;"	m	struct:__anon2
+nodes	list.h	/^	Listelem *nodes;$/;"	m	struct:__anon2
+noofelements	queuedef.h	/^			noofelements;$/;"	m	struct:__anon6
+noofstrings	stringutils.h	/^	Uint noofstrings;$/;"	m	struct:__anon9
+numberofblocks	memman.h	/^	int numberofblocks,$/;"	m	struct:__anon5
+numberofcells	memman.h	/^	int  sizeofcell, numberofcells;$/;"	m	struct:__anon4
+power	mathematics.c	/^power (double x, int n)$/;"	f
+prev	list.h	/^		 prev;$/;"	m	struct:__anon1
+progressBarVT	vtprogressbar.c	/^progressBarVT (char *message, Uint complete, Uint processed, Uint size)$/;"	f
+q_cantor	cantor.c	/^Uint q_cantor(Uint z) {$/;"	f
+queueisempty	queuedef.c	/^BOOL queueisempty(Queue *q) {$/;"	f
+queuesize	queuedef.h	/^			queuesize,$/;"	m	struct:__anon6
+queuespace	queuedef.h	/^	Queueelem *queuespace;$/;"	m	struct:__anon6
+quickSort	sort.c	/^ Uint *quickSort(void *space, void* toSort, Uint size, $/;"	f
+quickSortMultikey	sort.c	/^quickSortMultikey (void *space, void* toSort, Uint size, $/;"	f
+readcsv	fileio.c	/^stringset_t **readcsv(void *space, char* filename, char *delim, Uint *linecount) {$/;"	f
+readfile	fileio.c	/^ char* readfile(void* space, char* filename, Uint* strlen) {$/;"	f
+resizequeue	queuedef.c	/^void resizequeue(Spacetable *spacetab, Queue *q) {$/;"	f
+reverseVector	mathematics.c	/^void reverseVector(Uint a, Uint b, vector_t *v) {$/;"	f
+showqueue	queuedef.c	/^void showqueue(Queue *q) {$/;"	f
+size	stack.h	/^	int size;$/;"	m	struct:__anon7
+sizeofcell	memman.h	/^	int  sizeofcell, numberofcells;$/;"	m	struct:__anon4
+spaceptr	memman.h	/^	void *spaceptr;$/;"	m	struct:__anon4
+stackelements	stack.h	/^	Stackelement* stackelements;$/;"	m	struct:__anon7
+stackisempty	stack.c	/^  int stackisempty(Stack *stack) {$/;"	f
+stackpop	stack.c	/^ Stackelement stackpop(Stack *stack){$/;"	f
+stackpush	stack.c	/^  void stackpush(void* spacetab, Stack *stack, Stackelement elem) {$/;"	f
+stacktop	stack.c	/^ Stackelement stacktop(Stack *stack){$/;"	f
+str	stringutils.h	/^	char* str;$/;"	m	struct:__anon8
+string_t	stringutils.h	/^} string_t;$/;"	t	typeref:struct:__anon8
+strings	stringutils.h	/^	string_t* strings;$/;"	m	struct:__anon9
+stringset_t	stringutils.h	/^} stringset_t;$/;"	t	typeref:struct:__anon9
+strreverse	stringutils.c	/^strreverse(char *s, Uint len)$/;"	f
+strtrim	stringutils.c	/^char* strtrim(void *spacetab, char* toTrim, Uint *len) {	$/;"	f
+strtrimquote	stringutils.c	/^char* strtrimquote (void *spacetab, char *toTrim, Uint *len) {$/;"	f
+sweepList	list.c	/^void sweepList(void *space, List *l) {$/;"	f
+swgapless	dpalign.c	/^swgapless (void *space, symtype *a, Uint m, symtype *b, Uint n,$/;"	f
+swgaplesstraceback	dpalign.c	/^swgaplesstraceback (void *space, int *M,  $/;"	f
+swmatrix	dpalign.c	/^swmatrix (void *space, symtype *a, Uint m, symtype *b, Uint n, int indel,$/;"	f
+swtraceback	dpalign.c	/^swtraceback (void *space, int *M,  $/;"	f
+symtype	dpalign.h	/^typedef Uint symtype;$/;"	t
+tokensToStringset	stringutils.c	/^stringset_t* tokensToStringset(void *space, char* delim, char* toTokens, $/;"	f
+top	stack.h	/^	int top;$/;"	m	struct:__anon7
+uniroot	mathematics.c	/^uniroot (double start, double end, double (*f)(double, void*), double tolx, void* info)$/;"	f
+unlinkListElem	list.c	/^unlinkListElem (List *l, Uint cur)$/;"	f
+vecswap	sort.c	/^vecswap(int i, int j, int n, Uint *x)$/;"	f
+vector_t	mathematics.h	/^} vector_t;$/;"	t	typeref:struct:__anon3
+vectorelem	mathematics.h	/^typedef Uint vectorelem;$/;"	t
+wrapList	list.c	/^wrapList (void *space, List *l, $/;"	f
+wrapqueue	queuedef.c	/^void wrapqueue(Spacetable *spacetab, Queue *q) {$/;"	f

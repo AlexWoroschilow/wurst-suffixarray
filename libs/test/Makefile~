@@ -1,0 +1,84 @@
+CC=gcc
+LD=${CC} 
+CFLAGS=-Wall -pedantic -g -I.. -I../sufarray -I../../gnuplot_i-2.10/src -L..
+LDFLAGS=-lm 
+CTAGS=ctags > tags
+LIBS=-lob -lm
+
+NEWTON=../newton.o
+
+MATHEMATICSTESTOBJ= mathematics_test.o\
+					../cantor.o\
+					../mathematics.o
+
+FILEIOTESTOBJ = fileio_test.o\
+				../stringutils.o\
+				../memman.o\
+				../fileio.o
+
+BIOFILETESTOBJ = ../stringutils.o\
+				../memman.o\
+				../fileio.o\
+				../biofiles.o\
+				../sufarray/sufarray.o\
+				../sufarray/charsequence.o\
+				../sufarray/multicharseq.o\
+				../stack.o\
+				../sort.o\
+				../vtprogressbar.o\
+				../sufarray/mmchar.o\
+				../../gnuplot_i-2.10/gnuplot_i.o\
+				biofiletest.o
+
+SORTTESTOBJ= ../sort.o\
+			 ../stack.o\
+			 sort_test.o
+
+
+ALURUTESTOBJ= ../aluruSort.o\
+			 ../stack.o\
+             ../sort.o\
+			 ../mathematics.o\
+			 ../bitArray.o\
+				alurutest.o
+
+BITTESTOBJ= ../bitArray.c\
+			bitarraytest.c
+
+BOYERMOOREOBJ = ../boyermoore.o\
+				../mathematics.o\
+				testboyermoore.o
+				
+all: newton.x mathematicstest.x sorttest.x testboyermoore.x biofiletest.x alurutest.x bitarraytest.x
+
+
+newton.x: ${NEWTON}
+			gcc $(CFLAGS) ${NEWTON} -o $@ $(LDFLAGS)
+
+mathematicstest.x: ${MATHEMATICSTESTOBJ}
+					gcc $(CFLAGS) ${MATHEMATICSTESTOBJ} -o $@ $(LDFLAGS)
+
+fileiotest.x: ${FILEIOTESTOBJ}
+					gcc $(CFLAGS) ${FILEIOTESTOBJ} -o $@ $(LDFLAGS)
+
+biofiletest.x: ${BIOFILETESTOBJ}
+					gcc $(CFLAGS) ${BIOFILETESTOBJ} -o $@ $(LDFLAGS)
+
+sorttest.x: ${SORTTESTOBJ}
+				gcc $(CFLAGS) ${SORTTESTOBJ} -o $@ $(LDFLAGS)
+
+
+alurutest.x: ${ALURUTESTOBJ}
+				gcc $(CFLAGS) ${ALURUTESTOBJ} -o $@ $(LDFLAGS)
+
+
+bitarraytest.x: ${BITTESTOBJ}
+				gcc $(CFLAGS) ${BITTESTOBJ} -o $@ $(LDFLAGS)
+
+testboyermoore.x: ${BOYERMOOREOBJ}
+				gcc $(CFLAGS) ${BOYERMOOREOBJ} -o $@ $(LDFLAGS)
+
+clean: 
+	rm ${MATHEMATICSTESTOBJ}
+	rm ${BOOYERMOOREOBJ}
+

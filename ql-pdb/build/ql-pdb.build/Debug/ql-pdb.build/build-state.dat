@@ -1,0 +1,871 @@
+Tql-pdb
+v7
+r0
+t323030510.254032
+cCheck dependencies
+cProcessInfoPlistFile /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o /Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coord.o /Users/margraf/code/ql-pdb/coord.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coordinfo.o /Users/margraf/code/ql-pdb/coordinfo.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/e_malloc.o /Users/margraf/code/ql-pdb/e_malloc.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/error.o /Users/margraf/code/ql-pdb/error.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/fio.o /Users/margraf/code/ql-pdb/fio.c normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h
+c000000004B90C8A60000000000000E87
+t1267779750
+s3719
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004B90C8A60000000000000AF4
+t1267779750
+s2804
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004B90FA5D0000000000000401
+t1267792477
+s1025
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B489326000000000000578C
+t1263047462
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+c000000004BE91B5D0000000000042ACF
+t1273568093
+s273103
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BE91B5D0000000000003F84
+t1273568093
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QuickLook.h
+c000000004B4872E40000000000000165
+t1263039204
+s357
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004AC59C810000000000002C18
+t1254464641
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004AC59C82000000000000178E
+t1254464642
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004AC59DB70000000000001538
+t1254464951
+s5432
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004AC59DB70000000000000C7E
+t1254464951
+s3198
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004AC59DB70000000000003197
+t1254464951
+s12695
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004D53E6590000000000022140
+t1297344089
+s139584
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004D53E6590000000000781330
+t1297344089
+s7869232
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004D53E65D0000000000021710
+t1297344093
+s136976
+
+N/System/Library/Frameworks/QuickLook.framework/QuickLook
+c000000004D53E6B1000000000012F0D0
+t1297344177
+s1241296
+
+N/Users/margraf/code/ql-pdb/English.lproj/InfoPlist.strings
+c000000004D909E930000000000000176
+t1301323411
+s374
+
+N/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c
+c000000004D90D5C800000000000086F7
+t1301337544
+s34551
+i<CoreFoundation/CoreFoundation.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+i<ctype.h>
+i<errno.h>
+i<stdio.h>
+i<fcntl.h>
+i"e_malloc.h"
+i<string.h>
+i<math.h>
+i<GLUT/glut.h>
+i<OPENGL/glu.h>
+i<OPENGL/glext.h>
+i"specktacular.h"
+i"coord.h"
+i"pdbin_i.h"
+
+N/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c
+c000000004D909E93000000000000034B
+t1301323411
+s843
+i<CoreFoundation/CoreFoundation.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+
+N/Users/margraf/code/ql-pdb/bad_angle.h
+c000000004615F94D000000000000014C
+t1175845197
+s332
+
+N/Users/margraf/code/ql-pdb/binver.h
+c000000004615F94D0000000000000070
+t1175845197
+s112
+
+N/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator
+t1301324776
+s102
+
+N/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist
+t1301324776
+s1586
+
+N/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/MacOS/ql-pdb
+t2
+s0
+
+N/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings
+t1301324777
+s374
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o
+t1301337551
+s41944
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o
+t1301324976
+s5572
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coord.o
+t2
+s0
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coordinfo.o
+t2
+s0
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/e_malloc.o
+t2
+s0
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/error.o
+t1301337710
+s3904
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/fio.o
+t2
+s0
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o
+t1301324976
+s12524
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/ql-pdb.LinkFileList
+c000000004D90D66E00000000000002C0
+t1301337710
+s704
+
+N/Users/margraf/code/ql-pdb/coord.c
+c000000004615F94F0000000000008552
+t1175845199
+s34130
+i<limits.h>
+i<float.h>
+i<math.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<time.h>
+i"bad_angle.h"
+i"binver.h"
+i"e_malloc.h"
+i"mgc_num.h"
+i"coord.h"
+i"coord_i.h"
+i"dihedral.h"
+i"fio.h"
+i"mprintf.h"
+i"read_seq_i.h"
+i"scratch.h"
+i"sec_s_i.h"
+i"sec_s.h"
+i"str.h"
+i"yesno.h"
+
+N/Users/margraf/code/ql-pdb/coord.h
+c00000000471B40D700000000000005EE
+t1192968407
+s1518
+
+N/Users/margraf/code/ql-pdb/coord_i.h
+c000000004615F94F0000000000000521
+t1175845199
+s1313
+
+N/Users/margraf/code/ql-pdb/coordinfo.c
+c000000004615F94F00000000000003F4
+t1175845199
+s1012
+i<limits.h>
+i<stdio.h>
+i<stdlib.h>
+i"mprintf.h"
+i"e_malloc.h"
+i"coord.h"
+i"sec_s.h"
+i"sec_s_i.h"
+i"coordinfo_i.h"
+
+N/Users/margraf/code/ql-pdb/coordinfo_i.h
+c000000004615F95000000000000000E5
+t1175845200
+s229
+
+N/Users/margraf/code/ql-pdb/dihedral.h
+c000000004615F9540000000000000132
+t1175845204
+s306
+
+N/Users/margraf/code/ql-pdb/e_malloc.c
+c000000004615F95400000000000008F6
+t1175845204
+s2294
+i<errno.h>
+i<stdio.h>
+i<stdlib.h>
+i"e_malloc.h"
+i"mprintf.h"
+
+N/Users/margraf/code/ql-pdb/e_malloc.h
+c000000004615F9540000000000000519
+t1175845204
+s1305
+
+N/Users/margraf/code/ql-pdb/error.c
+c000000004615F93F0000000000000830
+t1175845183
+s2096
+i<stddef.h>
+i<stdlib.h>
+i<stdio.h>
+i"gsl_errno.h"
+i"gsl_message.h"
+
+N/Users/margraf/code/ql-pdb/fio.c
+c000000004615F9540000000000000BF9
+t1175845204
+s3065
+i<errno.h>
+i<fcntl.h>
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i"fio.h"
+i"mprintf.h"
+
+N/Users/margraf/code/ql-pdb/fio.h
+c000000004615F955000000000000010A
+t1175845205
+s266
+
+N/Users/margraf/code/ql-pdb/gsl_errno.h
+c000000004615F94000000000000016F2
+t1175845184
+s5874
+i<stdio.h>
+i<errno.h>
+i"gsl_types.h"
+
+N/Users/margraf/code/ql-pdb/gsl_message.h
+c000000004615F9410000000000000949
+t1175845185
+s2377
+i"gsl_types.h"
+
+N/Users/margraf/code/ql-pdb/gsl_types.h
+c000000004615F943000000000000047A
+t1175845187
+s1146
+
+N/Users/margraf/code/ql-pdb/main.c
+c000000004D909E93000000000000249C
+t1301323411
+s9372
+i<CoreFoundation/CoreFoundation.h>
+i<CoreFoundation/CFPlugInCOM.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+
+N/Users/margraf/code/ql-pdb/main.h
+c0000000046815BFA000000000000015A
+t1182882810
+s346
+i<GLUT/glut.h>
+
+N/Users/margraf/code/ql-pdb/pdbin_i.h
+c000000004615F959000000000000011C
+t1175845209
+s284
+
+N/Users/margraf/code/ql-pdb/specktacular.h
+c00000000471B4895000000000000016B
+t1192970389
+s363
+i"coord_i.h"
+
+NInfo.plist
+c000000004D909E93000000000000068B
+t1301323411
+s1675
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323030510#323030510#0(0"0(0#1#0"8631426592#0"0#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323030351.108384
+e323030351.458693
+r1
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o
+x/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:20:1: warning: "bool" redefined
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:31,
+o                 from /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h:36:1: warning: this is the location of the previous definition
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'setShader':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:945: warning: passing argument 3 of 'glShaderSourceARB' from incompatible pointer type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:946: warning: passing argument 3 of 'glShaderSourceARB' from incompatible pointer type
+lSLF07#2@58"Compile /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323030351#323030351#0(795"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:20:1: warning: "bool" redefinedIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:31,                 from /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1:/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h:36:1: warning: this is the location of the previous definition/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'setShader':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:945: warning: passing argument 3 of 'glShaderSourceARB' from incompatible pointer type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:946: warning: passing argument 3 of 'glShaderSourceARB' from incompatible pointer type4(22@16""bool" redefined323030351#0#83#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323030344#20#0#20#0#13""*" redefined0(22@47"This is the location of the previous definition323030351#292#150#3(7@72"In file included from /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323030351#18446744073709551615#0#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323030344#1#0#1#0#0"0(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h323030351#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h289472550#31#0#31#0#0"0(13@137"This is the location of the previous definition in /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h323030351#18446744073709551615#0#0(6@86"/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h276157751#36#0#36#0#0"0(6@86"/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h276157751#36#0#36#0#47"this is the location of the previous definition0(22@72"Passing argument 3 of 'glShaderSourceARB' from incompatible pointer type323030351#519#138#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323030344#945#0#945#0#56"passing argument * of '*' from incompatible pointer type0(22@72"Passing argument 3 of 'glShaderSourceARB' from incompatible pointer type323030351#657#138#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323030344#946#0#946#0#56"passing argument * of '*' from incompatible pointer type0(0#0#50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c8629580672#839"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I. -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o0#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o /Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323017775.979063
+e323017776.352428
+r1
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o
+x/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c:13:6: warning: #warning To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c
+lSLF07#2@60"Compile /Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c323017775#323017776#0(187"/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c:13:6: warning: #warning To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c1(22@118"#warning To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c323017776#0#187#0(6@52"/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c323016211#13#0#13#0#10"#warning *0(0#0#52"/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c8629106400#843"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I. -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o0#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coord.o /Users/margraf/code/ql-pdb/coord.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323030510.183249
+e323030510.253977
+r0
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coord.o
+x/Users/margraf/code/ql-pdb/coord.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/margraf/code/ql-pdb/coord.c:24:21: error: mgc_num.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coord.c:29:21: error: mprintf.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coord.c:30:24: error: read_seq_i.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coord.c:31:21: error: scratch.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coord.c:32:21: error: sec_s_i.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coord.c:33:19: error: sec_s.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coord.c:34:17: error: str.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coord.c:35:19: error: yesno.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coord.c: In function 'e_fgets':
+o/Users/margraf/code/ql-pdb/coord.c:88: warning: implicit declaration of function 'err_printf'
+o/Users/margraf/code/ql-pdb/coord.c: In function 'stoi':
+o/Users/margraf/code/ql-pdb/coord.c:103: warning: implicit declaration of function 'mperror'
+o/Users/margraf/code/ql-pdb/coord.c: In function 'file2pdb':
+o/Users/margraf/code/ql-pdb/coord.c:142: warning: implicit declaration of function 'strip_path'
+o/Users/margraf/code/ql-pdb/coord.c:142: warning: assignment makes pointer from integer without a cast
+o/Users/margraf/code/ql-pdb/coord.c:146: warning: implicit declaration of function 'str_up'
+o/Users/margraf/code/ql-pdb/coord.c: In function 'fread_or_toss':
+o/Users/margraf/code/ql-pdb/coord.c:199: warning: implicit declaration of function 'BYTE_REVERSE_4'
+o/Users/margraf/code/ql-pdb/coord.c:209: warning: implicit declaration of function 'BYTE_REVERSE_2'
+o/Users/margraf/code/ql-pdb/coord.c: In function 'coord_template':
+o/Users/margraf/code/ql-pdb/coord.c:335: error: 'NO_SEC' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:335: error: (Each undeclared identifier is reported only once
+o/Users/margraf/code/ql-pdb/coord.c:335: error: for each function it appears in.)
+o/Users/margraf/code/ql-pdb/coord.c: In function 'coord_read_specific':
+o/Users/margraf/code/ql-pdb/coord.c:398: error: storage size of 'do_sec_s' isn't known
+o/Users/margraf/code/ql-pdb/coord.c:486: error: 'NO' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:497: error: 'YES' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:500: warning: implicit declaration of function 'read_magic_num'
+o/Users/margraf/code/ql-pdb/coord.c:501: error: 'BYTE_STRAIGHT' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:503: error: 'BYTE_REVERSE' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:505: error: 'BYTE_BROKEN' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:584: warning: implicit declaration of function 'char2ss'
+o/Users/margraf/code/ql-pdb/coord.c:592: warning: implicit declaration of function 'seq_from_thomas'
+o/Users/margraf/code/ql-pdb/coord.c:592: warning: assignment makes pointer from integer without a cast
+o/Users/margraf/code/ql-pdb/coord.c:615: warning: implicit declaration of function 'seq_destroy'
+o/Users/margraf/code/ql-pdb/coord.c:398: warning: unused variable 'do_sec_s'
+o/Users/margraf/code/ql-pdb/coord.c: In function 'coord_2_bin':
+o/Users/margraf/code/ql-pdb/coord.c:672: warning: implicit declaration of function 'mfprintf'
+o/Users/margraf/code/ql-pdb/coord.c:691: warning: implicit declaration of function 'write_magic_num'
+o/Users/margraf/code/ql-pdb/coord.c:700: warning: implicit declaration of function 'seq_get_thomas'
+o/Users/margraf/code/ql-pdb/coord.c:700: warning: assignment makes pointer from integer without a cast
+o/Users/margraf/code/ql-pdb/coord.c:736: warning: implicit declaration of function 'ss2char'
+o/Users/margraf/code/ql-pdb/coord.c: In function 'coord_name':
+o/Users/margraf/code/ql-pdb/coord.c:772: warning: implicit declaration of function 'scr_reset'
+o/Users/margraf/code/ql-pdb/coord.c:773: warning: implicit declaration of function 'scr_printf'
+o/Users/margraf/code/ql-pdb/coord.c:773: warning: return makes pointer from integer without a cast
+o/Users/margraf/code/ql-pdb/coord.c: In function 'coord_get_seq':
+o/Users/margraf/code/ql-pdb/coord.c:789: warning: implicit declaration of function 'seq_copy'
+o/Users/margraf/code/ql-pdb/coord.c:789: warning: return makes pointer from integer without a cast
+o/Users/margraf/code/ql-pdb/coord.c: In function 'coord_trim':
+o/Users/margraf/code/ql-pdb/coord.c:814: warning: implicit declaration of function 'seq_trim'
+o/Users/margraf/code/ql-pdb/coord.c: At top level:
+o/Users/margraf/code/ql-pdb/coord.c:962: error: return type is an incomplete type
+o/Users/margraf/code/ql-pdb/coord.c: In function 'bonds_ok':
+o/Users/margraf/code/ql-pdb/coord.c:966: error: 'YES' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:966: warning: 'return' with a value, in function returning void
+o/Users/margraf/code/ql-pdb/coord.c:967: error: 'NO' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:967: warning: 'return' with a value, in function returning void
+o/Users/margraf/code/ql-pdb/coord.c: In function 'dihedral_check':
+o/Users/margraf/code/ql-pdb/coord.c:979: error: 'YES' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/coord.c:979: error: void value not ignored as it ought to be
+o/Users/margraf/code/ql-pdb/coord.c:983: warning: control reaches end of non-void function
+lSLF07#2@42"Compile /Users/margraf/code/ql-pdb/coord.c323030510#323030510#0(5368"/Users/margraf/code/ql-pdb/coord.c:24:21: error: mgc_num.h: No such file or directory/Users/margraf/code/ql-pdb/coord.c:29:21: error: mprintf.h: No such file or directory/Users/margraf/code/ql-pdb/coord.c:30:24: error: read_seq_i.h: No such file or directory/Users/margraf/code/ql-pdb/coord.c:31:21: error: scratch.h: No such file or directory/Users/margraf/code/ql-pdb/coord.c:32:21: error: sec_s_i.h: No such file or directory/Users/margraf/code/ql-pdb/coord.c:33:19: error: sec_s.h: No such file or directory/Users/margraf/code/ql-pdb/coord.c:34:17: error: str.h: No such file or directory/Users/margraf/code/ql-pdb/coord.c:35:19: error: yesno.h: No such file or directory/Users/margraf/code/ql-pdb/coord.c: In function 'e_fgets':/Users/margraf/code/ql-pdb/coord.c:88: warning: implicit declaration of function 'err_printf'/Users/margraf/code/ql-pdb/coord.c: In function 'stoi':/Users/margraf/code/ql-pdb/coord.c:103: warning: implicit declaration of function 'mperror'/Users/margraf/code/ql-pdb/coord.c: In function 'file2pdb':/Users/margraf/code/ql-pdb/coord.c:142: warning: implicit declaration of function 'strip_path'/Users/margraf/code/ql-pdb/coord.c:142: warning: assignment makes pointer from integer without a cast/Users/margraf/code/ql-pdb/coord.c:146: warning: implicit declaration of function 'str_up'/Users/margraf/code/ql-pdb/coord.c: In function 'fread_or_toss':/Users/margraf/code/ql-pdb/coord.c:199: warning: implicit declaration of function 'BYTE_REVERSE_4'/Users/margraf/code/ql-pdb/coord.c:209: warning: implicit declaration of function 'BYTE_REVERSE_2'/Users/margraf/code/ql-pdb/coord.c: In function 'coord_template':/Users/margraf/code/ql-pdb/coord.c:335: error: 'NO_SEC' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:335: error: (Each undeclared identifier is reported only once/Users/margraf/code/ql-pdb/coord.c:335: error: for each function it appears in.)/Users/margraf/code/ql-pdb/coord.c: In function 'coord_read_specific':/Users/margraf/code/ql-pdb/coord.c:398: error: storage size of 'do_sec_s' isn't known/Users/margraf/code/ql-pdb/coord.c:486: error: 'NO' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:497: error: 'YES' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:500: warning: implicit declaration of function 'read_magic_num'/Users/margraf/code/ql-pdb/coord.c:501: error: 'BYTE_STRAIGHT' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:503: error: 'BYTE_REVERSE' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:505: error: 'BYTE_BROKEN' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:584: warning: implicit declaration of function 'char2ss'/Users/margraf/code/ql-pdb/coord.c:592: warning: implicit declaration of function 'seq_from_thomas'/Users/margraf/code/ql-pdb/coord.c:592: warning: assignment makes pointer from integer without a cast/Users/margraf/code/ql-pdb/coord.c:615: warning: implicit declaration of function 'seq_destroy'/Users/margraf/code/ql-pdb/coord.c:398: warning: unused variable 'do_sec_s'/Users/margraf/code/ql-pdb/coord.c: In function 'coord_2_bin':/Users/margraf/code/ql-pdb/coord.c:672: warning: implicit declaration of function 'mfprintf'/Users/margraf/code/ql-pdb/coord.c:691: warning: implicit declaration of function 'write_magic_num'/Users/margraf/code/ql-pdb/coord.c:700: warning: implicit declaration of function 'seq_get_thomas'/Users/margraf/code/ql-pdb/coord.c:700: warning: assignment makes pointer from integer without a cast/Users/margraf/code/ql-pdb/coord.c:736: warning: implicit declaration of function 'ss2char'/Users/margraf/code/ql-pdb/coord.c: In function 'coord_name':/Users/margraf/code/ql-pdb/coord.c:772: warning: implicit declaration of function 'scr_reset'/Users/margraf/code/ql-pdb/coord.c:773: warning: implicit declaration of function 'scr_printf'/Users/margraf/code/ql-pdb/coord.c:773: warning: return makes pointer from integer without a cast/Users/margraf/code/ql-pdb/coord.c: In function 'coord_get_seq':/Users/margraf/code/ql-pdb/coord.c:789: warning: implicit declaration of function 'seq_copy'/Users/margraf/code/ql-pdb/coord.c:789: warning: return makes pointer from integer without a cast/Users/margraf/code/ql-pdb/coord.c: In function 'coord_trim':/Users/margraf/code/ql-pdb/coord.c:814: warning: implicit declaration of function 'seq_trim'/Users/margraf/code/ql-pdb/coord.c: At top level:/Users/margraf/code/ql-pdb/coord.c:962: error: return type is an incomplete type/Users/margraf/code/ql-pdb/coord.c: In function 'bonds_ok':/Users/margraf/code/ql-pdb/coord.c:966: error: 'YES' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:966: warning: 'return' with a value, in function returning void/Users/margraf/code/ql-pdb/coord.c:967: error: 'NO' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:967: warning: 'return' with a value, in function returning void/Users/margraf/code/ql-pdb/coord.c: In function 'dihedral_check':/Users/margraf/code/ql-pdb/coord.c:979: error: 'YES' undeclared (first use in this function)/Users/margraf/code/ql-pdb/coord.c:979: error: void value not ignored as it ought to be/Users/margraf/code/ql-pdb/coord.c:983: warning: control reaches end of non-void function48(4@36"Mgc_num.h: No such file or directory323030510#0#86#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#24#0#24#0#28"*: No such file or directory0(4@36"Mprintf.h: No such file or directory323030510#86#86#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#29#0#29#0#28"*: No such file or directory0(4@39"Read_seq_i.h: No such file or directory323030510#172#89#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#30#0#30#0#28"*: No such file or directory0(4@36"Scratch.h: No such file or directory323030510#261#86#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#31#0#31#0#28"*: No such file or directory0(4@36"Sec_s_i.h: No such file or directory323030510#347#86#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#32#0#32#0#28"*: No such file or directory0(4@34"Sec_s.h: No such file or directory323030510#433#84#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#33#0#33#0#28"*: No such file or directory0(4@32"Str.h: No such file or directory323030510#517#82#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#34#0#34#0#28"*: No such file or directory0(4@34"Yesno.h: No such file or directory323030510#599#84#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#35#0#35#0#28"*: No such file or directory0(22@45"Implicit declaration of function 'err_printf'323030510#742#94#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#88#0#88#0#36"implicit declaration of function '*'0(22@42"Implicit declaration of function 'mperror'323030510#892#92#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#103#0#103#0#36"implicit declaration of function '*'0(22@45"Implicit declaration of function 'strip_path'323030510#1044#95#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#142#0#142#0#36"implicit declaration of function '*'0(22@52"Assignment makes pointer from integer without a cast323030510#1139#102#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#142#0#142#0#0"0(22@41"Implicit declaration of function 'str_up'323030510#1241#91#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#146#0#146#0#36"implicit declaration of function '*'0(22@49"Implicit declaration of function 'BYTE_REVERSE_4'323030510#1397#99#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#199#0#199#0#36"implicit declaration of function '*'0(22@49"Implicit declaration of function 'BYTE_REVERSE_2'323030510#1496#99#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#209#0#209#0#36"implicit declaration of function '*'0(4@48"'NO_SEC' undeclared (first use in this function)323030510#1661#96#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#335#0#335#0#43"'*' undeclared (first use in this function)0(4@38"Storage size of 'do_sec_s' isn't known323030510#2006#86#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#398#0#398#0#0"0(4@44"'NO' undeclared (first use in this function)323030510#2092#92#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#486#0#486#0#43"'*' undeclared (first use in this function)0(4@45"'YES' undeclared (first use in this function)323030510#2184#93#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#497#0#497#0#43"'*' undeclared (first use in this function)0(22@49"Implicit declaration of function 'read_magic_num'323030510#2277#99#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#500#0#500#0#36"implicit declaration of function '*'0(4@55"'BYTE_STRAIGHT' undeclared (first use in this function)323030510#2376#103#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#501#0#501#0#43"'*' undeclared (first use in this function)0(4@54"'BYTE_REVERSE' undeclared (first use in this function)323030510#2479#102#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#503#0#503#0#43"'*' undeclared (first use in this function)0(4@53"'BYTE_BROKEN' undeclared (first use in this function)323030510#2581#101#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#505#0#505#0#43"'*' undeclared (first use in this function)0(22@42"Implicit declaration of function 'char2ss'323030510#2682#92#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#584#0#584#0#36"implicit declaration of function '*'0(22@50"Implicit declaration of function 'seq_from_thomas'323030510#2774#100#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#592#0#592#0#36"implicit declaration of function '*'0(22@52"Assignment makes pointer from integer without a cast323030510#2874#102#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#592#0#592#0#0"0(22@46"Implicit declaration of function 'seq_destroy'323030510#2976#96#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#615#0#615#0#36"implicit declaration of function '*'0(22@26"Unused variable 'do_sec_s'323030510#3072#76#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#398#0#398#0#19"unused variable '*'0(22@43"Implicit declaration of function 'mfprintf'323030510#3211#93#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#672#0#672#0#36"implicit declaration of function '*'0(22@50"Implicit declaration of function 'write_magic_num'323030510#3304#100#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#691#0#691#0#36"implicit declaration of function '*'0(22@49"Implicit declaration of function 'seq_get_thomas'323030510#3404#99#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#700#0#700#0#36"implicit declaration of function '*'0(22@52"Assignment makes pointer from integer without a cast323030510#3503#102#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#700#0#700#0#0"0(22@42"Implicit declaration of function 'ss2char'323030510#3605#92#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#736#0#736#0#36"implicit declaration of function '*'0(22@44"Implicit declaration of function 'scr_reset'323030510#3759#94#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#772#0#772#0#36"implicit declaration of function '*'0(22@45"Implicit declaration of function 'scr_printf'323030510#3853#95#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#773#0#773#0#36"implicit declaration of function '*'0(22@48"Return makes pointer from integer without a cast323030510#3948#98#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#773#0#773#0#0"0(22@43"Implicit declaration of function 'seq_copy'323030510#4111#93#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#789#0#789#0#36"implicit declaration of function '*'0(22@48"Return makes pointer from integer without a cast323030510#4204#98#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#789#0#789#0#0"0(22@43"Implicit declaration of function 'seq_trim'323030510#4364#93#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#814#0#814#0#36"implicit declaration of function '*'0(23@13"At top level:323030510#4457#50#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#0#0#0#0#0"0(4@33"Return type is an incomplete type323030510#4507#81#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#962#0#962#0#0"0(4@45"'YES' undeclared (first use in this function)323030510#4648#93#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#966#0#966#0#43"'*' undeclared (first use in this function)0(22@49"'return' with a value, in function returning void323030510#4741#99#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#966#0#966#0#0"0(4@44"'NO' undeclared (first use in this function)323030510#4840#92#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#967#0#967#0#43"'*' undeclared (first use in this function)0(22@49"'return' with a value, in function returning void323030510#4932#99#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#967#0#967#0#0"0(4@45"'YES' undeclared (first use in this function)323030510#5097#93#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#979#0#979#0#43"'*' undeclared (first use in this function)0(4@40"Void value not ignored as it ought to be323030510#5190#88#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#979#0#979#0#40"void value not ignored as it ought to be0(22@40"Control reaches end of non-void function323030510#5278#90#0(6@34"/Users/margraf/code/ql-pdb/coord.c197537999#983#0#983#0#40"control reaches end of non-void function0(0#0#34"/Users/margraf/code/ql-pdb/coord.c8629187872#807"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I. -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/coord.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coord.o1#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coordinfo.o /Users/margraf/code/ql-pdb/coordinfo.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323030510.183809
+e323030510.222918
+r0
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coordinfo.o
+x/Users/margraf/code/ql-pdb/coordinfo.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/margraf/code/ql-pdb/coordinfo.c:10:21: error: mprintf.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coordinfo.c:13:19: error: sec_s.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coordinfo.c:15:21: error: sec_s_i.h: No such file or directory
+o/Users/margraf/code/ql-pdb/coordinfo.c: In function 'coord_get_sec_s':
+o/Users/margraf/code/ql-pdb/coordinfo.c:26: warning: implicit declaration of function 'err_printf'
+o/Users/margraf/code/ql-pdb/coordinfo.c:35: warning: implicit declaration of function 'ss2char'
+lSLF07#2@46"Compile /Users/margraf/code/ql-pdb/coordinfo.c323030510#323030510#0(532"/Users/margraf/code/ql-pdb/coordinfo.c:10:21: error: mprintf.h: No such file or directory/Users/margraf/code/ql-pdb/coordinfo.c:13:19: error: sec_s.h: No such file or directory/Users/margraf/code/ql-pdb/coordinfo.c:15:21: error: sec_s_i.h: No such file or directory/Users/margraf/code/ql-pdb/coordinfo.c: In function 'coord_get_sec_s':/Users/margraf/code/ql-pdb/coordinfo.c:26: warning: implicit declaration of function 'err_printf'/Users/margraf/code/ql-pdb/coordinfo.c:35: warning: implicit declaration of function 'ss2char'5(4@36"Mprintf.h: No such file or directory323030510#0#90#0(6@38"/Users/margraf/code/ql-pdb/coordinfo.c197537999#10#0#10#0#28"*: No such file or directory0(4@34"Sec_s.h: No such file or directory323030510#90#88#0(6@38"/Users/margraf/code/ql-pdb/coordinfo.c197537999#13#0#13#0#28"*: No such file or directory0(4@36"Sec_s_i.h: No such file or directory323030510#178#90#0(6@38"/Users/margraf/code/ql-pdb/coordinfo.c197537999#15#0#15#0#28"*: No such file or directory0(22@45"Implicit declaration of function 'err_printf'323030510#339#98#0(6@38"/Users/margraf/code/ql-pdb/coordinfo.c197537999#26#0#26#0#36"implicit declaration of function '*'0(22@42"Implicit declaration of function 'ss2char'323030510#437#95#0(6@38"/Users/margraf/code/ql-pdb/coordinfo.c197537999#35#0#35#0#36"implicit declaration of function '*'0(0#0#38"/Users/margraf/code/ql-pdb/coordinfo.c8629095328#815"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I. -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/coordinfo.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coordinfo.o1#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/e_malloc.o /Users/margraf/code/ql-pdb/e_malloc.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323030510.184707
+e323030510.226113
+r0
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/e_malloc.o
+x/Users/margraf/code/ql-pdb/e_malloc.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/margraf/code/ql-pdb/e_malloc.c:10:21: error: mprintf.h: No such file or directory
+o/Users/margraf/code/ql-pdb/e_malloc.c: In function 'e_malloc':
+o/Users/margraf/code/ql-pdb/e_malloc.c:35: warning: implicit declaration of function 'mfprintf'
+lSLF07#2@45"Compile /Users/margraf/code/ql-pdb/e_malloc.c323030510#323030510#0(247"/Users/margraf/code/ql-pdb/e_malloc.c:10:21: error: mprintf.h: No such file or directory/Users/margraf/code/ql-pdb/e_malloc.c: In function 'e_malloc':/Users/margraf/code/ql-pdb/e_malloc.c:35: warning: implicit declaration of function 'mfprintf'2(4@36"Mprintf.h: No such file or directory323030510#0#89#0(6@37"/Users/margraf/code/ql-pdb/e_malloc.c197538004#10#0#10#0#28"*: No such file or directory0(22@43"Implicit declaration of function 'mfprintf'323030510#152#95#0(6@37"/Users/margraf/code/ql-pdb/e_malloc.c197538004#35#0#35#0#36"implicit declaration of function '*'0(0#0#37"/Users/margraf/code/ql-pdb/e_malloc.c8628598592#813"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I. -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/e_malloc.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/e_malloc.o1#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/error.o /Users/margraf/code/ql-pdb/error.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323030510.185437
+e323030510.219910
+r1
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/error.o
+x/Users/margraf/code/ql-pdb/error.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/margraf/code/ql-pdb/error.c323030510#323030510#0(0"0(0#0#34"/Users/margraf/code/ql-pdb/error.c8627377632#807"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I. -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/error.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/error.o0#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/fio.o /Users/margraf/code/ql-pdb/fio.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323030510.220018
+e323030510.246723
+r0
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/fio.o
+x/Users/margraf/code/ql-pdb/fio.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/margraf/code/ql-pdb/fio.c:14:21: error: mprintf.h: No such file or directory
+o/Users/margraf/code/ql-pdb/fio.c: In function 'mfopen':
+o/Users/margraf/code/ql-pdb/fio.c:32: warning: implicit declaration of function 'err_printf'
+o/Users/margraf/code/ql-pdb/fio.c:34: warning: implicit declaration of function 'mperror'
+lSLF07#2@40"Compile /Users/margraf/code/ql-pdb/fio.c323030510#323030510#0(321"/Users/margraf/code/ql-pdb/fio.c:14:21: error: mprintf.h: No such file or directory/Users/margraf/code/ql-pdb/fio.c: In function 'mfopen':/Users/margraf/code/ql-pdb/fio.c:32: warning: implicit declaration of function 'err_printf'/Users/margraf/code/ql-pdb/fio.c:34: warning: implicit declaration of function 'mperror'3(4@36"Mprintf.h: No such file or directory323030510#0#84#0(6@32"/Users/margraf/code/ql-pdb/fio.c197538004#14#0#14#0#28"*: No such file or directory0(22@45"Implicit declaration of function 'err_printf'323030510#140#92#0(6@32"/Users/margraf/code/ql-pdb/fio.c197538004#32#0#32#0#36"implicit declaration of function '*'0(22@42"Implicit declaration of function 'mperror'323030510#232#89#0(6@32"/Users/margraf/code/ql-pdb/fio.c197538004#34#0#34#0#36"implicit declaration of function '*'0(0#0#32"/Users/margraf/code/ql-pdb/fio.c8626048640#803"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I. -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/fio.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/fio.o1#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o /Users/margraf/code/ql-pdb/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323017775.977913
+e323017776.364156
+r1
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o
+x/Users/margraf/code/ql-pdb/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/margraf/code/ql-pdb/main.c323017775#323017776#0(0"0(0#0#33"/Users/margraf/code/ql-pdb/main.c8629985664#805"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I. -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/main.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o0#
+
+CCopyStringsFile /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s323017576.745569
+e323017577.371733
+r1
+xCopyStringsFile
+x/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings323017576#323017577#0(0"0(0#0#58"/Users/margraf/code/ql-pdb/English.lproj/InfoPlist.strings8631140896#349"    cd /Users/margraf/code/ql-pdb    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj0#
+
+CLd /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/MacOS/ql-pdb normal x86_64
+s323030351.458837
+e323030352.408837
+r0
+xLd
+x/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/MacOS/ql-pdb
+xnormal
+xx86_64
+oUndefined symbols:
+o  "_gluNurbsCurve", referenced from:
+o      _DrawTrace in GeneratePreviewForURL.o
+o  "_glEnable", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o  "_e_malloc", referenced from:
+o      _readShaderSrc in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _initState in GeneratePreviewForURL.o
+o      _initState in GeneratePreviewForURL.o
+o  "_glGetObjectParameterivARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_glGenLists", referenced from:
+o      _InitGL in GeneratePreviewForURL.o
+o  "_glUseProgramObjectARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o  "_glAttachObjectARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_glClearDepth", referenced from:
+o      _InitGL in GeneratePreviewForURL.o
+o  "_glUniform3fv", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_glEndList", referenced from:
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o  "_glDepthFunc", referenced from:
+o      _InitGL in GeneratePreviewForURL.o
+o  "_glMultMatrixf", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o  "_glRotatef", referenced from:
+o      _callback_display in GeneratePreviewForURL.o
+o      _callback_display in GeneratePreviewForURL.o
+o  "_glCallList", referenced from:
+o      _DrawGLScene in GeneratePreviewForURL.o
+o  "_glutMouseFunc", referenced from:
+o      _GeneratePreviewForURL in GeneratePreviewForURL.o
+o  "_glHint", referenced from:
+o      _InitGL in GeneratePreviewForURL.o
+o  "_glShadeModel", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o  "_gluQuadricTexture", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o  "_glViewport", referenced from:
+o      _ReSizeGLScene in GeneratePreviewForURL.o
+o  "_gluCylinder", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o  "_gluSphere", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o  "_glTranslatef", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawProt in GeneratePreviewForURL.o
+o      _callback_display in GeneratePreviewForURL.o
+o  "_gluBeginSurface", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o  "_glShaderSourceARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_glutDisplayFunc", referenced from:
+o      _GeneratePreviewForURL in GeneratePreviewForURL.o
+o  "_glLoadIdentity", referenced from:
+o      _ReSizeGLScene in GeneratePreviewForURL.o
+o      _ReSizeGLScene in GeneratePreviewForURL.o
+o      _callback_display in GeneratePreviewForURL.o
+o      _callback_display in GeneratePreviewForURL.o
+o  "_glColor3f", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o  "_glColor4f", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o  "_gluNewQuadric", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o  "_glMatrixMode", referenced from:
+o      _ReSizeGLScene in GeneratePreviewForURL.o
+o      _ReSizeGLScene in GeneratePreviewForURL.o
+o      _callback_display in GeneratePreviewForURL.o
+o      _callback_display in GeneratePreviewForURL.o
+o  "_gluNurbsProperty", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o  "_gluNewNurbsRenderer", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o  "_gluEndCurve", referenced from:
+o      _DrawTrace in GeneratePreviewForURL.o
+o  "_glutMotionFunc", referenced from:
+o      _GeneratePreviewForURL in GeneratePreviewForURL.o
+o  "_gluQuadricDrawStyle", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o  "_glCompileShaderARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_glLinkProgramARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o  "_glNewList", referenced from:
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o  "_glCreateShaderObjectARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_pdb_read", referenced from:
+o      _GeneratePreviewForURL in GeneratePreviewForURL.o
+o  "_gluEndSurface", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o  "_glutMainLoop", referenced from:
+o      _GeneratePreviewForURL in GeneratePreviewForURL.o
+o  "_glCreateProgramObjectARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o  "_glutReshapeFunc", referenced from:
+o      _GeneratePreviewForURL in GeneratePreviewForURL.o
+o  "_gluNurbsSurface", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o  "_gluNurbsCallback", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o  "_glValidateProgramARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o  "_glutKeyboardFunc", referenced from:
+o      _GeneratePreviewForURL in GeneratePreviewForURL.o
+o  "_glClearColor", referenced from:
+o      _InitGL in GeneratePreviewForURL.o
+o  "_gluBeginCurve", referenced from:
+o      _DrawTrace in GeneratePreviewForURL.o
+o  "_glutSwapBuffers", referenced from:
+o      _callback_display in GeneratePreviewForURL.o
+o  "_gluQuadricNormals", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o  "_glPushMatrix", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o  "_glutPostRedisplay", referenced from:
+o      _motion in GeneratePreviewForURL.o
+o  "_glMaterialfv", referenced from:
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o      _InitGL in GeneratePreviewForURL.o
+o  "_glLineWidth", referenced from:
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o  "_glUniform1f", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_glClear", referenced from:
+o      _callback_display in GeneratePreviewForURL.o
+o  "_glGetInfoLogARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_glPopMatrix", referenced from:
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawProt in GeneratePreviewForURL.o
+o      _DrawRibbon in GeneratePreviewForURL.o
+o      _Draw3dRibbon in GeneratePreviewForURL.o
+o      _DrawTrace in GeneratePreviewForURL.o
+o  "_glGetUniformLocationARB", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_glUniform2fv", referenced from:
+o      _setShader in GeneratePreviewForURL.o
+o      _setShader in GeneratePreviewForURL.o
+o  "_gluErrorString", referenced from:
+o      _nurbsError in GeneratePreviewForURL.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@84"Link /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/MacOS/ql-pdb323030351#323030352#0(11307"Undefined symbols:  "_gluNurbsCurve", referenced from:      _DrawTrace in GeneratePreviewForURL.o  "_glEnable", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o  "_e_malloc", referenced from:      _readShaderSrc in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _initState in GeneratePreviewForURL.o      _initState in GeneratePreviewForURL.o  "_glGetObjectParameterivARB", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_glGenLists", referenced from:      _InitGL in GeneratePreviewForURL.o  "_glUseProgramObjectARB", referenced from:      _setShader in GeneratePreviewForURL.o  "_glAttachObjectARB", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_glClearDepth", referenced from:      _InitGL in GeneratePreviewForURL.o  "_glUniform3fv", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_glEndList", referenced from:      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o  "_glDepthFunc", referenced from:      _InitGL in GeneratePreviewForURL.o  "_glMultMatrixf", referenced from:      _DrawProt in GeneratePreviewForURL.o  "_glRotatef", referenced from:      _callback_display in GeneratePreviewForURL.o      _callback_display in GeneratePreviewForURL.o  "_glCallList", referenced from:      _DrawGLScene in GeneratePreviewForURL.o  "_glutMouseFunc", referenced from:      _GeneratePreviewForURL in GeneratePreviewForURL.o  "_glHint", referenced from:      _InitGL in GeneratePreviewForURL.o  "_glShadeModel", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o  "_gluQuadricTexture", referenced from:      _DrawProt in GeneratePreviewForURL.o  "_glViewport", referenced from:      _ReSizeGLScene in GeneratePreviewForURL.o  "_gluCylinder", referenced from:      _DrawProt in GeneratePreviewForURL.o  "_gluSphere", referenced from:      _DrawProt in GeneratePreviewForURL.o  "_glTranslatef", referenced from:      _DrawProt in GeneratePreviewForURL.o      _DrawProt in GeneratePreviewForURL.o      _callback_display in GeneratePreviewForURL.o  "_gluBeginSurface", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o  "_glShaderSourceARB", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_glutDisplayFunc", referenced from:      _GeneratePreviewForURL in GeneratePreviewForURL.o  "_glLoadIdentity", referenced from:      _ReSizeGLScene in GeneratePreviewForURL.o      _ReSizeGLScene in GeneratePreviewForURL.o      _callback_display in GeneratePreviewForURL.o      _callback_display in GeneratePreviewForURL.o  "_glColor3f", referenced from:      _DrawProt in GeneratePreviewForURL.o      _DrawProt in GeneratePreviewForURL.o      _DrawProt in GeneratePreviewForURL.o      _DrawProt in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o  "_glColor4f", referenced from:      _DrawProt in GeneratePreviewForURL.o  "_gluNewQuadric", referenced from:      _DrawProt in GeneratePreviewForURL.o  "_glMatrixMode", referenced from:      _ReSizeGLScene in GeneratePreviewForURL.o      _ReSizeGLScene in GeneratePreviewForURL.o      _callback_display in GeneratePreviewForURL.o      _callback_display in GeneratePreviewForURL.o  "_gluNurbsProperty", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o  "_gluNewNurbsRenderer", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o  "_gluEndCurve", referenced from:      _DrawTrace in GeneratePreviewForURL.o  "_glutMotionFunc", referenced from:      _GeneratePreviewForURL in GeneratePreviewForURL.o  "_gluQuadricDrawStyle", referenced from:      _DrawProt in GeneratePreviewForURL.o  "_glCompileShaderARB", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_glLinkProgramARB", referenced from:      _setShader in GeneratePreviewForURL.o  "_glNewList", referenced from:      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o  "_glCreateShaderObjectARB", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_pdb_read", referenced from:      _GeneratePreviewForURL in GeneratePreviewForURL.o  "_gluEndSurface", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o  "_glutMainLoop", referenced from:      _GeneratePreviewForURL in GeneratePreviewForURL.o  "_glCreateProgramObjectARB", referenced from:      _setShader in GeneratePreviewForURL.o  "_glutReshapeFunc", referenced from:      _GeneratePreviewForURL in GeneratePreviewForURL.o  "_gluNurbsSurface", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o  "_gluNurbsCallback", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o  "_glValidateProgramARB", referenced from:      _setShader in GeneratePreviewForURL.o  "_glutKeyboardFunc", referenced from:      _GeneratePreviewForURL in GeneratePreviewForURL.o  "_glClearColor", referenced from:      _InitGL in GeneratePreviewForURL.o  "_gluBeginCurve", referenced from:      _DrawTrace in GeneratePreviewForURL.o  "_glutSwapBuffers", referenced from:      _callback_display in GeneratePreviewForURL.o  "_gluQuadricNormals", referenced from:      _DrawProt in GeneratePreviewForURL.o  "_glPushMatrix", referenced from:      _DrawProt in GeneratePreviewForURL.o      _DrawProt in GeneratePreviewForURL.o      _DrawProt in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o  "_glutPostRedisplay", referenced from:      _motion in GeneratePreviewForURL.o  "_glMaterialfv", referenced from:      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o      _InitGL in GeneratePreviewForURL.o  "_glLineWidth", referenced from:      _DrawRibbon in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o  "_glUniform1f", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_glClear", referenced from:      _callback_display in GeneratePreviewForURL.o  "_glGetInfoLogARB", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_glPopMatrix", referenced from:      _DrawProt in GeneratePreviewForURL.o      _DrawProt in GeneratePreviewForURL.o      _DrawProt in GeneratePreviewForURL.o      _DrawRibbon in GeneratePreviewForURL.o      _Draw3dRibbon in GeneratePreviewForURL.o      _DrawTrace in GeneratePreviewForURL.o  "_glGetUniformLocationARB", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_glUniform2fv", referenced from:      _setShader in GeneratePreviewForURL.o      _setShader in GeneratePreviewForURL.o  "_gluErrorString", referenced from:      _nurbsError in GeneratePreviewForURL.old: symbol(s) not foundcollect2: ld returned 1 exit status263(4@34""_gluNurbsCurve", referenced from:323030352#19#37#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#56#44#0(6@0"323030352#0#0#0#0#0"0(4@29""_glEnable", referenced from:323030352#100#32#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#132#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#177#47#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#224#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#265#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#306#41#0(6@0"323030352#0#0#0#0#0"0(4@29""_e_malloc", referenced from:323030352#347#32#0(6@0"323030352#0#0#0#0#0"0(13@41"_readShaderSrc in GeneratePreviewForURL.o323030352#379#48#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#427#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#472#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#517#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#564#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#611#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#658#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#705#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#752#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#799#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#846#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#893#47#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#940#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#984#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1028#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1072#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1116#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1160#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_initState in GeneratePreviewForURL.o323030352#1204#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_initState in GeneratePreviewForURL.o323030352#1248#44#0(6@0"323030352#0#0#0#0#0"0(4@46""_glGetObjectParameterivARB", referenced from:323030352#1292#49#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1341#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1385#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1429#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1473#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1517#44#0(6@0"323030352#0#0#0#0#0"0(4@31""_glGenLists", referenced from:323030352#1561#34#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#1595#41#0(6@0"323030352#0#0#0#0#0"0(4@42""_glUseProgramObjectARB", referenced from:323030352#1636#45#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1681#44#0(6@0"323030352#0#0#0#0#0"0(4@38""_glAttachObjectARB", referenced from:323030352#1725#41#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1766#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1810#44#0(6@0"323030352#0#0#0#0#0"0(4@33""_glClearDepth", referenced from:323030352#1854#36#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#1890#41#0(6@0"323030352#0#0#0#0#0"0(4@33""_glUniform3fv", referenced from:323030352#1931#36#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#1967#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#2011#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#2055#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#2099#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#2143#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#2187#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#2231#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#2275#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#2319#44#0(6@0"323030352#0#0#0#0#0"0(4@30""_glEndList", referenced from:323030352#2363#33#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#2396#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#2437#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#2478#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#2519#41#0(6@0"323030352#0#0#0#0#0"0(4@32""_glDepthFunc", referenced from:323030352#2560#35#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#2595#41#0(6@0"323030352#0#0#0#0#0"0(4@34""_glMultMatrixf", referenced from:323030352#2636#37#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#2673#43#0(6@0"323030352#0#0#0#0#0"0(4@30""_glRotatef", referenced from:323030352#2716#33#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#2749#51#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#2800#51#0(6@0"323030352#0#0#0#0#0"0(4@31""_glCallList", referenced from:323030352#2851#34#0(6@0"323030352#0#0#0#0#0"0(13@39"_DrawGLScene in GeneratePreviewForURL.o323030352#2885#46#0(6@0"323030352#0#0#0#0#0"0(4@34""_glutMouseFunc", referenced from:323030352#2931#37#0(6@0"323030352#0#0#0#0#0"0(13@49"_GeneratePreviewForURL in GeneratePreviewForURL.o323030352#2968#56#0(6@0"323030352#0#0#0#0#0"0(4@27""_glHint", referenced from:323030352#3024#30#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#3054#41#0(6@0"323030352#0#0#0#0#0"0(4@33""_glShadeModel", referenced from:323030352#3095#36#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#3131#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#3176#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#3221#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#3268#47#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#3315#41#0(6@0"323030352#0#0#0#0#0"0(4@38""_gluQuadricTexture", referenced from:323030352#3356#41#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#3397#43#0(6@0"323030352#0#0#0#0#0"0(4@31""_glViewport", referenced from:323030352#3440#34#0(6@0"323030352#0#0#0#0#0"0(13@41"_ReSizeGLScene in GeneratePreviewForURL.o323030352#3474#48#0(6@0"323030352#0#0#0#0#0"0(4@32""_gluCylinder", referenced from:323030352#3522#35#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#3557#43#0(6@0"323030352#0#0#0#0#0"0(4@30""_gluSphere", referenced from:323030352#3600#33#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#3633#43#0(6@0"323030352#0#0#0#0#0"0(4@33""_glTranslatef", referenced from:323030352#3676#36#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#3712#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#3755#43#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#3798#51#0(6@0"323030352#0#0#0#0#0"0(4@36""_gluBeginSurface", referenced from:323030352#3849#39#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#3888#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#3933#47#0(6@0"323030352#0#0#0#0#0"0(4@38""_glShaderSourceARB", referenced from:323030352#3980#41#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#4021#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#4065#44#0(6@0"323030352#0#0#0#0#0"0(4@36""_glutDisplayFunc", referenced from:323030352#4109#39#0(6@0"323030352#0#0#0#0#0"0(13@49"_GeneratePreviewForURL in GeneratePreviewForURL.o323030352#4148#56#0(6@0"323030352#0#0#0#0#0"0(4@35""_glLoadIdentity", referenced from:323030352#4204#38#0(6@0"323030352#0#0#0#0#0"0(13@41"_ReSizeGLScene in GeneratePreviewForURL.o323030352#4242#48#0(6@0"323030352#0#0#0#0#0"0(13@41"_ReSizeGLScene in GeneratePreviewForURL.o323030352#4290#48#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#4338#51#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#4389#51#0(6@0"323030352#0#0#0#0#0"0(4@30""_glColor3f", referenced from:323030352#4440#33#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#4473#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#4516#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#4559#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#4602#43#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#4645#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#4690#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#4735#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#4780#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#4825#47#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#4872#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#4916#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#4960#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#5004#44#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5048#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5089#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5130#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5171#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5212#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5253#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5294#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5335#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5376#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5417#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5458#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#5499#41#0(6@0"323030352#0#0#0#0#0"0(4@30""_glColor4f", referenced from:323030352#5540#33#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#5573#43#0(6@0"323030352#0#0#0#0#0"0(4@34""_gluNewQuadric", referenced from:323030352#5616#37#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#5653#43#0(6@0"323030352#0#0#0#0#0"0(4@33""_glMatrixMode", referenced from:323030352#5696#36#0(6@0"323030352#0#0#0#0#0"0(13@41"_ReSizeGLScene in GeneratePreviewForURL.o323030352#5732#48#0(6@0"323030352#0#0#0#0#0"0(13@41"_ReSizeGLScene in GeneratePreviewForURL.o323030352#5780#48#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#5828#51#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#5879#51#0(6@0"323030352#0#0#0#0#0"0(4@37""_gluNurbsProperty", referenced from:323030352#5930#40#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#5970#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#6015#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#6060#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#6105#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#6150#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#6197#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#6244#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#6291#47#0(6@0"323030352#0#0#0#0#0"0(4@40""_gluNewNurbsRenderer", referenced from:323030352#6338#43#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#6381#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#6426#47#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#6473#44#0(6@0"323030352#0#0#0#0#0"0(4@32""_gluEndCurve", referenced from:323030352#6517#35#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#6552#44#0(6@0"323030352#0#0#0#0#0"0(4@35""_glutMotionFunc", referenced from:323030352#6596#38#0(6@0"323030352#0#0#0#0#0"0(13@49"_GeneratePreviewForURL in GeneratePreviewForURL.o323030352#6634#56#0(6@0"323030352#0#0#0#0#0"0(4@40""_gluQuadricDrawStyle", referenced from:323030352#6690#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#6733#43#0(6@0"323030352#0#0#0#0#0"0(4@39""_glCompileShaderARB", referenced from:323030352#6776#42#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#6818#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#6862#44#0(6@0"323030352#0#0#0#0#0"0(4@37""_glLinkProgramARB", referenced from:323030352#6906#40#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#6946#44#0(6@0"323030352#0#0#0#0#0"0(4@30""_glNewList", referenced from:323030352#6990#33#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#7023#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#7064#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#7105#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#7146#41#0(6@0"323030352#0#0#0#0#0"0(4@44""_glCreateShaderObjectARB", referenced from:323030352#7187#47#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#7234#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#7278#44#0(6@0"323030352#0#0#0#0#0"0(4@29""_pdb_read", referenced from:323030352#7322#32#0(6@0"323030352#0#0#0#0#0"0(13@49"_GeneratePreviewForURL in GeneratePreviewForURL.o323030352#7354#56#0(6@0"323030352#0#0#0#0#0"0(4@34""_gluEndSurface", referenced from:323030352#7410#37#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#7447#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#7492#47#0(6@0"323030352#0#0#0#0#0"0(4@33""_glutMainLoop", referenced from:323030352#7539#36#0(6@0"323030352#0#0#0#0#0"0(13@49"_GeneratePreviewForURL in GeneratePreviewForURL.o323030352#7575#56#0(6@0"323030352#0#0#0#0#0"0(4@45""_glCreateProgramObjectARB", referenced from:323030352#7631#48#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#7679#44#0(6@0"323030352#0#0#0#0#0"0(4@36""_glutReshapeFunc", referenced from:323030352#7723#39#0(6@0"323030352#0#0#0#0#0"0(13@49"_GeneratePreviewForURL in GeneratePreviewForURL.o323030352#7762#56#0(6@0"323030352#0#0#0#0#0"0(4@36""_gluNurbsSurface", referenced from:323030352#7818#39#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#7857#45#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#7902#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#7947#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#7994#47#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#8041#47#0(6@0"323030352#0#0#0#0#0"0(4@37""_gluNurbsCallback", referenced from:323030352#8088#40#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#8128#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#8173#47#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#8220#44#0(6@0"323030352#0#0#0#0#0"0(4@41""_glValidateProgramARB", referenced from:323030352#8264#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#8308#44#0(6@0"323030352#0#0#0#0#0"0(4@37""_glutKeyboardFunc", referenced from:323030352#8352#40#0(6@0"323030352#0#0#0#0#0"0(13@49"_GeneratePreviewForURL in GeneratePreviewForURL.o323030352#8392#56#0(6@0"323030352#0#0#0#0#0"0(4@33""_glClearColor", referenced from:323030352#8448#36#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#8484#41#0(6@0"323030352#0#0#0#0#0"0(4@34""_gluBeginCurve", referenced from:323030352#8525#37#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#8562#44#0(6@0"323030352#0#0#0#0#0"0(4@36""_glutSwapBuffers", referenced from:323030352#8606#39#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#8645#51#0(6@0"323030352#0#0#0#0#0"0(4@38""_gluQuadricNormals", referenced from:323030352#8696#41#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#8737#43#0(6@0"323030352#0#0#0#0#0"0(4@33""_glPushMatrix", referenced from:323030352#8780#36#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#8816#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#8859#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#8902#43#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#8945#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#8990#47#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#9037#44#0(6@0"323030352#0#0#0#0#0"0(4@38""_glutPostRedisplay", referenced from:323030352#9081#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_motion in GeneratePreviewForURL.o323030352#9122#41#0(6@0"323030352#0#0#0#0#0"0(4@33""_glMaterialfv", referenced from:323030352#9163#36#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#9199#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#9240#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#9281#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#9322#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#9363#41#0(6@0"323030352#0#0#0#0#0"0(13@34"_InitGL in GeneratePreviewForURL.o323030352#9404#41#0(6@0"323030352#0#0#0#0#0"0(4@32""_glLineWidth", referenced from:323030352#9445#35#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#9480#45#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#9525#44#0(6@0"323030352#0#0#0#0#0"0(4@32""_glUniform1f", referenced from:323030352#9569#35#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#9604#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#9648#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#9692#44#0(6@0"323030352#0#0#0#0#0"0(4@28""_glClear", referenced from:323030352#9736#31#0(6@0"323030352#0#0#0#0#0"0(13@44"_callback_display in GeneratePreviewForURL.o323030352#9767#51#0(6@0"323030352#0#0#0#0#0"0(4@36""_glGetInfoLogARB", referenced from:323030352#9818#39#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#9857#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#9901#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#9945#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#9989#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10033#44#0(6@0"323030352#0#0#0#0#0"0(4@32""_glPopMatrix", referenced from:323030352#10077#35#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#10112#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#10155#43#0(6@0"323030352#0#0#0#0#0"0(13@36"_DrawProt in GeneratePreviewForURL.o323030352#10198#43#0(6@0"323030352#0#0#0#0#0"0(13@38"_DrawRibbon in GeneratePreviewForURL.o323030352#10241#45#0(6@0"323030352#0#0#0#0#0"0(13@40"_Draw3dRibbon in GeneratePreviewForURL.o323030352#10286#47#0(6@0"323030352#0#0#0#0#0"0(13@37"_DrawTrace in GeneratePreviewForURL.o323030352#10333#44#0(6@0"323030352#0#0#0#0#0"0(4@44""_glGetUniformLocationARB", referenced from:323030352#10377#47#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10424#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10468#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10512#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10556#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10600#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10644#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10688#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10732#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10776#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10820#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10864#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10908#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10952#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#10996#44#0(6@0"323030352#0#0#0#0#0"0(4@33""_glUniform2fv", referenced from:323030352#11040#36#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#11076#44#0(6@0"323030352#0#0#0#0#0"0(13@37"_setShader in GeneratePreviewForURL.o323030352#11120#44#0(6@0"323030352#0#0#0#0#0"0(4@35""_gluErrorString", referenced from:323030352#11164#38#0(6@0"323030352#0#0#0#0#0"0(13@38"_nurbsError in GeneratePreviewForURL.o323030352#11202#45#0(6@0"323030352#0#0#0#0#0"0(13@19"Symbol(s) not found323030352#11247#24#0(6@0"323030352#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status323030352#11271#36#0(6@0"323030352#0#0#0#0#0"0(0#0#0"8630807168#582"    cd /Users/margraf/code/ql-pdb    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/margraf/code/ql-pdb/build/Debug -L. -F/Users/margraf/code/ql-pdb/build/Debug -filelist /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/ql-pdb.LinkFileList -mmacosx-version-min=10.6 -framework CoreFoundation -framework CoreServices -framework ApplicationServices -framework QuickLook -o /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/MacOS/ql-pdb1#
+
+CProcessInfoPlistFile /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist Info.plist
+s323017576.691587
+e323017576.745434
+r1
+xProcessInfoPlistFile
+x/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist323017576#323017576#0(0"0(0#0#37"/Users/margraf/code/ql-pdb/Info.plist28429470871191664#193"    cd /Users/margraf/code/ql-pdb    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist0#
+
+CTouch /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator
+r0
+

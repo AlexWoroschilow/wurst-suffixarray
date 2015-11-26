@@ -1,0 +1,248 @@
+>IMBISS order delivered
+>/Users/steve/salami_lib/pvecs/1s3zA
+>alphabet_t100.csv
+
+    0	  396  460  555  600  372  368  885 1324  703  322
+   10	  314  315    1    1    1    1    1    1  880 1267
+   20	  267  201  167  132   77   92  506  432    1    1
+   30	    1    1    1    1    1  310  381  646  440 1254
+   40	 1309 1075  740  516  346  328  330   62  133  120
+   50	  139   97  108  137  700  501  519  328  328  346
+   60	  479  585   31  625  736  191  691   27  122 1038
+   70	 1084  734  515  330  348  372  667  789  696   25
+   80	  519  484  367  476   71 1147  222  289  733  262
+   90	  123  233  115    1    1    1    1    1    1    1
+  100	    1    1    1  310    4    6   68  164  136  151
+  110	  502  516  343  354  484  367  717 1285  109  834
+  120	  657  414    1    1    1    1  310    4    6   10
+  130	   11  105  161  789   56   25  519  328  328  328
+  140	  347   22
+score: 40669, count: 127
+7158	/Users/steve/salami_lib/pvecs/1s3zA	127	[********************]
+scr: 852.000000 (852.000000), scr_tot: 852.000000, cvr: 1.000000 (raw: 147)
+scr: 852.000000 (852.000000), scr_tot: 852.000000, cvr: 1.000000 (raw: 147)
+frac_dme: 1.000000, z_scr: 71.651237, rmsd: 0.000001, andrew_scr: 1.000000
+score: 1084, count: 6
+12411	/Users/steve/salami_lib/pvecs/2fsrA	6	[-------------**---*-]
+scr: 410.828796 (439.597565), scr_tot: 456.501160, cvr: 0.812865 (raw: 139)
+scr: 410.828796 (439.597565), scr_tot: 456.501160, cvr: 0.736842 (raw: 126)
+frac_dme: 0.957714, z_scr: 36.934116, rmsd: 4.540670, andrew_scr: 0.606641
+score: 1075, count: 8
+12407	/Users/steve/salami_lib/pvecs/2fs5A	8	[--------------*---**]
+scr: 447.093719 (487.012177), scr_tot: 510.415771, cvr: 0.590090 (raw: 131)
+scr: 447.093719 (487.012177), scr_tot: 510.415771, cvr: 0.572072 (raw: 127)
+frac_dme: 1.000000, z_scr: 43.243217, rmsd: 4.095215, andrew_scr: 0.378805
+score: 943, count: 16
+9991	/Users/steve/salami_lib/pvecs/1yvoA	16	[------------***---*-]
+scr: 500.750244 (531.109253), scr_tot: 557.849060, cvr: 0.828402 (raw: 140)
+scr: 500.750244 (531.109253), scr_tot: 557.849060, cvr: 0.828402 (raw: 140)
+frac_dme: 0.943474, z_scr: 43.540493, rmsd: 6.702654, andrew_scr: 0.679832
+score: 484, count: 15
+9990	/Users/steve/salami_lib/pvecs/1yvkA	15	[------------***-----]
+scr: 454.764435 (486.948059), scr_tot: 486.948059, cvr: 0.835526 (raw: 127)
+scr: 454.764435 (486.948059), scr_tot: 486.948059, cvr: 0.796053 (raw: 121)
+frac_dme: 1.000000, z_scr: 45.975655, rmsd: 4.020792, andrew_scr: 0.769867
+score: 1, count: 6
+4092	/Users/steve/salami_lib/pvecs/1j0aA	6	[--------------**----]
+scr: 238.553787 (264.220428), scr_tot: 269.258820, cvr: 0.326154 (raw: 106)
+scr: 238.553787 (264.220428), scr_tot: 269.258820, cvr: 0.292308 (raw: 95)
+frac_dme: 0.624860, z_scr: 30.054007, rmsd: 15.148009, andrew_scr: 0.082615
+score: 0, count: 12
+13031	/Users/steve/salami_lib/pvecs/2hv2A	12	[-------------**-----]
+scr: 485.697662 (506.489227), scr_tot: 509.739227, cvr: 0.352041 (raw: 138)
+scr: 485.697662 (506.489227), scr_tot: 509.739227, cvr: 0.352041 (raw: 138)
+frac_dme: 0.979689, z_scr: 44.041172, rmsd: 4.174936, andrew_scr: 0.129334
+score: 0, count: 8
+13030	/Users/steve/salami_lib/pvecs/2huzA	8	[-------------**-----]
+scr: 396.056030 (420.027039), scr_tot: 431.565430, cvr: 0.774725 (raw: 141)
+scr: 396.056030 (420.027039), scr_tot: 431.565430, cvr: 0.763736 (raw: 139)
+frac_dme: 0.984569, z_scr: 37.828171, rmsd: 4.463429, andrew_scr: 0.607345
+score: 0, count: 8
+12565	/Users/steve/salami_lib/pvecs/2ganA	8	[-------------**-----]
+scr: 379.141907 (421.063293), scr_tot: 457.879883, cvr: 0.782609 (raw: 144)
+scr: 379.141907 (421.063293), scr_tot: 457.879883, cvr: 0.733696 (raw: 135)
+frac_dme: 0.722056, z_scr: 40.553253, rmsd: 10.523984, andrew_scr: 0.423240
+score: 0, count: 9
+12514	/Users/steve/salami_lib/pvecs/2g3aA	9	[-------------**-----]
+scr: 414.601501 (455.889069), scr_tot: 470.436859, cvr: 0.912409 (raw: 125)
+scr: 414.601501 (455.889069), scr_tot: 470.436859, cvr: 0.912409 (raw: 125)
+frac_dme: 0.746839, z_scr: 39.060329, rmsd: 12.956556, andrew_scr: 0.731161
+score: 0, count: 10
+12011	/Users/steve/salami_lib/pvecs/2dxqA	10	[-------------**-----]
+scr: 544.058472 (553.241089), scr_tot: 558.279480, cvr: 0.979592 (raw: 144)
+scr: 544.058472 (553.241089), scr_tot: 558.279480, cvr: 0.965986 (raw: 142)
+frac_dme: 0.999900, z_scr: 47.603153, rmsd: 3.917552, andrew_scr: 0.965890
+score: 0, count: 8
+11069	/Users/steve/salami_lib/pvecs/2bswA	8	[-------------**-----]
+scr: 372.093903 (400.862701), scr_tot: 411.266296, cvr: 0.931035 (raw: 135)
+scr: 372.093903 (400.862701), scr_tot: 411.266296, cvr: 0.931035 (raw: 135)
+frac_dme: 0.919624, z_scr: 39.033756, rmsd: 6.630802, andrew_scr: 0.868011
+score: 0, count: 9
+10946	/Users/steve/salami_lib/pvecs/2beiA	9	[-------------**-----]
+scr: 487.187256 (506.446655), scr_tot: 515.629272, cvr: 0.897436 (raw: 140)
+scr: 487.187256 (506.446655), scr_tot: 515.629272, cvr: 0.833333 (raw: 130)
+frac_dme: 1.000000, z_scr: 44.807240, rmsd: 3.454719, andrew_scr: 0.785256
+score: 0, count: 7
+10633	/Users/steve/salami_lib/pvecs/2aj6A	7	[--------------*-----]
+scr: 425.030792 (440.784973), scr_tot: 449.967560, cvr: 0.916667 (raw: 110)
+scr: 425.030792 (440.784973), scr_tot: 449.967560, cvr: 0.841667 (raw: 101)
+frac_dme: 1.000000, z_scr: 35.486000, rmsd: 3.792006, andrew_scr: 1.031042
+score: 0, count: 11
+10575	/Users/steve/salami_lib/pvecs/2ae6A	11	[-------------***----]
+scr: 486.644012 (519.878235), scr_tot: 533.858643, cvr: 0.898649 (raw: 133)
+scr: 486.644012 (519.878235), scr_tot: 533.858643, cvr: 0.898649 (raw: 133)
+frac_dme: 0.938938, z_scr: 42.162075, rmsd: 7.120086, andrew_scr: 0.838074
+score: 0, count: 6
+10098	/Users/steve/salami_lib/pvecs/1z4rA	6	[--------------*-----]
+scr: 478.749512 (498.335693), scr_tot: 498.335693, cvr: 0.815951 (raw: 133)
+scr: 478.749512 (498.335693), scr_tot: 498.335693, cvr: 0.687117 (raw: 112)
+frac_dme: 1.000000, z_scr: 42.939747, rmsd: 3.126042, andrew_scr: 0.619670
+score: 0, count: 12
+10096	/Users/steve/salami_lib/pvecs/1z4eA	12	[-------------**-----]
+scr: 532.193542 (550.961426), scr_tot: 563.720825, cvr: 0.940000 (raw: 141)
+scr: 532.193542 (550.961426), scr_tot: 563.720825, cvr: 0.940000 (raw: 141)
+frac_dme: 1.000000, z_scr: 48.670273, rmsd: 3.583929, andrew_scr: 0.921200
+score: 0, count: 7
+9940	/Users/steve/salami_lib/pvecs/1yreA	7	[------------**------]
+scr: 479.659454 (522.081726), scr_tot: 551.177307, cvr: 0.765027 (raw: 140)
+scr: 479.659454 (522.081726), scr_tot: 551.177307, cvr: 0.754098 (raw: 138)
+frac_dme: 0.956310, z_scr: 47.319908, rmsd: 6.431351, andrew_scr: 0.579286
+score: 0, count: 9
+9853	/Users/steve/salami_lib/pvecs/1ykdA	9	[-------------**-----]
+scr: 287.695374 (312.320038), scr_tot: 317.358429, cvr: 0.331593 (raw: 127)
+scr: 287.695374 (312.320038), scr_tot: 317.358429, cvr: 0.328982 (raw: 126)
+frac_dme: 0.517333, z_scr: 23.306667, rmsd: 17.022327, andrew_scr: 0.065322
+score: 0, count: 7
+9728	/Users/steve/salami_lib/pvecs/1y9kA	7	[--------------*-----]
+scr: 477.614441 (507.896851), scr_tot: 507.896851, cvr: 0.848684 (raw: 129)
+scr: 477.614441 (507.896851), scr_tot: 507.896851, cvr: 0.802632 (raw: 122)
+frac_dme: 1.000000, z_scr: 50.405403, rmsd: 2.843192, andrew_scr: 0.776229
+score: 0, count: 10
+9493	/Users/steve/salami_lib/pvecs/1xmtA	10	[------------***-----]
+scr: 222.873108 (238.315094), scr_tot: 238.315094, cvr: 1.000000 (raw: 95)
+scr: 222.873108 (238.315094), scr_tot: 238.315094, cvr: 0.673684 (raw: 64)
+frac_dme: 0.967262, z_scr: 27.140036, rmsd: 4.570685, andrew_scr: 1.008310
+score: 0, count: 8
+9125	/Users/steve/salami_lib/pvecs/1wwzA	8	[------------***-----]
+scr: 461.565613 (490.901825), scr_tot: 509.593811, cvr: 0.910828 (raw: 143)
+scr: 461.565613 (490.901825), scr_tot: 509.593811, cvr: 0.910828 (raw: 143)
+frac_dme: 0.959913, z_scr: 41.454556, rmsd: 6.607875, andrew_scr: 0.818627
+score: 0, count: 16
+8472	/Users/steve/salami_lib/pvecs/1vkcA	16	[------------****----]
+scr: 521.012390 (545.891235), scr_tot: 564.256409, cvr: 0.932886 (raw: 139)
+scr: 521.012390 (545.891235), scr_tot: 564.256409, cvr: 0.926175 (raw: 138)
+frac_dme: 0.972813, z_scr: 45.294777, rmsd: 4.303697, andrew_scr: 0.888901
+score: 0, count: 9
+8428	/Users/steve/salami_lib/pvecs/1vhsA	9	[-------------**-----]
+scr: 483.985382 (522.266357), scr_tot: 553.717773, cvr: 0.854545 (raw: 141)
+scr: 483.985382 (522.266357), scr_tot: 553.717773, cvr: 0.854545 (raw: 141)
+frac_dme: 0.910233, z_scr: 47.873302, rmsd: 7.011570, andrew_scr: 0.692981
+score: 0, count: 7
+8304	/Users/steve/salami_lib/pvecs/1v93A	7	[--------------*-----]
+scr: 267.371643 (279.236816), scr_tot: 287.852020, cvr: 0.465753 (raw: 136)
+scr: 267.371643 (279.236816), scr_tot: 287.852020, cvr: 0.438356 (raw: 128)
+frac_dme: 0.517470, z_scr: 18.906708, rmsd: 15.731587, andrew_scr: 0.114195
+score: 0, count: 10
+7650	/Users/steve/salami_lib/pvecs/1tiqA	10	[-------------***----]
+scr: 622.225220 (642.908020), scr_tot: 662.494202, cvr: 0.838150 (raw: 145)
+scr: 622.225220 (642.908020), scr_tot: 662.494202, cvr: 0.820809 (raw: 142)
+frac_dme: 0.994007, z_scr: 55.356556, rmsd: 4.396657, andrew_scr: 0.693271
+score: 0, count: 6
+7551	/Users/steve/salami_lib/pvecs/1t7lA	6	[--------------*-----]
+scr: 238.245132 (323.589355), scr_tot: 403.000763, cvr: 0.194823 (raw: 143)
+scr: 238.245132 (323.589355), scr_tot: 403.000763, cvr: 0.193460 (raw: 142)
+frac_dme: 0.479772, z_scr: 30.879892, rmsd: 15.668628, andrew_scr: 0.018589
+score: 0, count: 6
+7539	/Users/steve/salami_lib/pvecs/1t6cA	6	[--------------*-----]
+scr: 260.576447 (275.691620), scr_tot: 286.662628, cvr: 0.473856 (raw: 145)
+scr: 260.576447 (275.691620), scr_tot: 286.662628, cvr: 0.411765 (raw: 126)
+frac_dme: 0.407873, z_scr: 19.819521, rmsd: 14.022640, andrew_scr: 0.080681
+score: 0, count: 6
+7381	/Users/steve/salami_lib/pvecs/1sqhA	6	[------------**------]
+scr: 397.386841 (430.299957), scr_tot: 434.444153, cvr: 0.430976 (raw: 128)
+scr: 397.386841 (430.299957), scr_tot: 434.444153, cvr: 0.424242 (raw: 126)
+frac_dme: 0.976889, z_scr: 41.704765, rmsd: 4.495087, andrew_scr: 0.205126
+score: 0, count: 7
+7202	/Users/steve/salami_lib/pvecs/1s7fA	7	[------------**------]
+scr: 494.173065 (523.094604), scr_tot: 545.604004, cvr: 0.773481 (raw: 140)
+scr: 494.173065 (523.094604), scr_tot: 545.604004, cvr: 0.729282 (raw: 132)
+frac_dme: 0.971085, z_scr: 43.944721, rmsd: 4.340012, andrew_scr: 0.575163
+score: 0, count: 9
+6702	/Users/steve/salami_lib/pvecs/1qsmA	9	[------------***-----]
+scr: 476.523682 (504.075134), scr_tot: 520.651917, cvr: 0.933333 (raw: 140)
+scr: 476.523682 (504.075134), scr_tot: 520.651917, cvr: 0.933333 (raw: 140)
+frac_dme: 1.000000, z_scr: 45.201862, rmsd: 3.416257, andrew_scr: 0.914667
+score: 0, count: 10
+6036	/Users/steve/salami_lib/pvecs/1on0A	10	[-------------***----]
+scr: 517.273132 (550.186218), scr_tot: 576.272400, cvr: 0.897436 (raw: 140)
+scr: 517.273132 (550.186218), scr_tot: 576.272400, cvr: 0.897436 (raw: 140)
+frac_dme: 0.879651, z_scr: 47.747055, rmsd: 6.653583, andrew_scr: 0.743886
+score: 0, count: 7
+5265	/Users/steve/salami_lib/pvecs/1mc0A	7	[--------------**----]
+scr: 243.117569 (328.874451), scr_tot: 413.651062, cvr: 0.428153 (raw: 146)
+scr: 243.117569 (328.874451), scr_tot: 413.651062, cvr: 0.428153 (raw: 146)
+frac_dme: 0.345394, z_scr: 29.829649, rmsd: 30.371744, andrew_scr: 0.063749
+score: 0, count: 14
+5165	/Users/steve/salami_lib/pvecs/1m1dA	14	[------------***-----]
+scr: 433.212799 (466.125793), scr_tot: 481.808380, cvr: 0.815951 (raw: 133)
+scr: 433.212799 (466.125793), scr_tot: 481.808380, cvr: 0.742331 (raw: 121)
+frac_dme: 1.000000, z_scr: 46.305977, rmsd: 3.431104, andrew_scr: 0.669464
+score: 0, count: 13
+4068	/Users/steve/salami_lib/pvecs/1iykA	13	[------------***-----]
+scr: 349.388031 (383.521942), scr_tot: 405.463928, cvr: 0.346939 (raw: 136)
+scr: 349.388031 (383.521942), scr_tot: 405.463928, cvr: 0.346939 (raw: 136)
+frac_dme: 0.934205, z_scr: 37.770412, rmsd: 5.363445, andrew_scr: 0.121542
+score: 0, count: 10
+3876	/Users/steve/salami_lib/pvecs/1iicA	10	[------------***-----]
+scr: 334.533203 (375.578278), scr_tot: 415.318085, cvr: 0.341232 (raw: 144)
+scr: 334.533203 (375.578278), scr_tot: 415.318085, cvr: 0.329384 (raw: 139)
+frac_dme: 0.866750, z_scr: 34.932362, rmsd: 6.021100, andrew_scr: 0.099449
+score: 0, count: 14
+3703	/Users/steve/salami_lib/pvecs/1i12A	14	[------------***-----]
+scr: 484.511261 (510.742981), scr_tot: 530.896606, cvr: 0.909091 (raw: 140)
+scr: 484.511261 (510.742981), scr_tot: 530.896606, cvr: 0.896104 (raw: 138)
+frac_dme: 1.000000, z_scr: 44.064747, rmsd: 3.933451, andrew_scr: 0.855372
+score: 0, count: 13
+3129	/Users/steve/salami_lib/pvecs/1gheA	13	[------------***-----]
+scr: 451.705841 (497.157928), scr_tot: 533.407104, cvr: 0.823529 (raw: 140)
+scr: 451.705841 (497.157928), scr_tot: 533.407104, cvr: 0.823529 (raw: 140)
+frac_dme: 0.930935, z_scr: 43.939804, rmsd: 6.843784, andrew_scr: 0.662929
+score: 0, count: 9
+2919	/Users/steve/salami_lib/pvecs/1fy7A	9	[------------***-----]
+scr: 272.389008 (323.285217), scr_tot: 364.572815, cvr: 0.509158 (raw: 139)
+scr: 272.389008 (323.285217), scr_tot: 364.572815, cvr: 0.428571 (raw: 117)
+frac_dme: 0.714265, z_scr: 29.954962, rmsd: 10.539055, andrew_scr: 0.164830
+score: 0, count: 8
+13470	/Users/steve/salami_lib/pvecs/2nq5A	8	[--------------*-----]
+scr: 242.283157 (325.245422), scr_tot: 398.070618, cvr: 0.194051 (raw: 137)
+scr: 242.283157 (325.245422), scr_tot: 398.070618, cvr: 0.188385 (raw: 133)
+frac_dme: 0.460128, z_scr: 31.822119, rmsd: 15.059958, andrew_scr: 0.018048
+score: 0, count: 6
+13181	/Users/steve/salami_lib/pvecs/2i71A	6	[--------------*-----]
+scr: 246.600708 (297.403259), scr_tot: 341.373474, cvr: 0.382749 (raw: 142)
+scr: 246.600708 (297.403259), scr_tot: 341.373474, cvr: 0.369272 (raw: 137)
+frac_dme: 0.450623, z_scr: 24.360876, rmsd: 19.405872, andrew_scr: 0.065933
+score: 0, count: 6
+1043	/Users/steve/salami_lib/pvecs/1bllE	6	[--------------*-----]
+scr: 263.968964 (347.707489), scr_tot: 432.071106, cvr: 0.301455 (raw: 145)
+scr: 263.968964 (347.707489), scr_tot: 432.071106, cvr: 0.278586 (raw: 134)
+frac_dme: 0.558074, z_scr: 33.114693, rmsd: 12.845146, andrew_scr: 0.047514
+score: 0, count: 8
+828	/Users/steve/salami_lib/pvecs/1b87A	8	[-------------**-----]
+scr: 422.885193 (480.809509), scr_tot: 526.568115, cvr: 0.756906 (raw: 137)
+scr: 422.885193 (480.809509), scr_tot: 526.568115, cvr: 0.756906 (raw: 137)
+frac_dme: 0.935809, z_scr: 46.018353, rmsd: 6.851171, andrew_scr: 0.575265
+score: 0, count: 6
+33	/Users/steve/salami_lib/pvecs/1a0eA	6	[--------------*-----]
+scr: 230.557144 (271.605255), scr_tot: 297.450867, cvr: 0.304740 (raw: 135)
+scr: 230.557144 (271.605255), scr_tot: 297.450867, cvr: 0.250564 (raw: 111)
+frac_dme: 0.535627, z_scr: 17.821070, rmsd: 14.981644, andrew_scr: 0.044534
+score: 0, count: 6
+32	/Users/steve/salami_lib/pvecs/1a0dA	6	[--------------*-----]
+scr: 231.386459 (272.269440), scr_tot: 298.115051, cvr: 0.308924 (raw: 135)
+scr: 231.386459 (272.269440), scr_tot: 298.115051, cvr: 0.254005 (raw: 111)
+frac_dme: 0.539885, z_scr: 19.645010, rmsd: 14.973367, andrew_scr: 0.046130
+Building  the suffixtree has taken 7.000000 seconds.
+Match the suffixtree has taken 0.000000 seconds.
+Rank  the suffixtree has taken 1.000000 seconds.
+Goodbye.

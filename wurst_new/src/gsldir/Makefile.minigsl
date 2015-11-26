@@ -1,0 +1,120 @@
+.POSIX:
+# Temporary deletable makefile
+# Do not bother editing this file
+# Your changes will go away
+OBJS=blas.o error.o permutation_init.o lu.o init.o view.o strerror.o block_init.o matrix.o matrix_view.o matrix_init.o matrix_rowcol.o matrix_swap.o 
+LIB_DEPS=libminigsl.a(blas.o) libminigsl.a(error.o) libminigsl.a(permutation_init.o) libminigsl.a(lu.o) libminigsl.a(init.o) libminigsl.a(view.o) libminigsl.a(strerror.o) libminigsl.a(block_init.o) libminigsl.a(matrix.o) libminigsl.a(matrix_view.o) libminigsl.a(matrix_init.o) libminigsl.a(matrix_rowcol.o) libminigsl.a(matrix_swap.o) 
+blas.o: blas.c gsl_math.h gsl_sys.h gsl_machine.h gsl_precision.h \
+  gsl_types.h gsl_nan.h gsl_errno.h gsl_cblas.h gsl_blas_types.h \
+  gsl_blas.h gsl_vector_double.h gsl_check_range.h gsl_block_double.h \
+  gsl_matrix_double.h ../mprintf.h
+error.o: error.c gsl_errno.h gsl_types.h gsl_message.h
+permutation_init.o: permutation_init.c gsl_errno.h gsl_types.h \
+  gsl_permutation.h gsl_check_range.h
+lu.o: lu.c gsl_math.h gsl_sys.h gsl_machine.h gsl_precision.h gsl_types.h \
+  gsl_nan.h gsl_vector_double.h gsl_errno.h gsl_check_range.h \
+  gsl_block_double.h gsl_matrix_double.h gsl_blas.h gsl_blas_types.h \
+  gsl_cblas.h gsl_linalg.h gsl_mode.h gsl_permutation.h ../mprintf.h \
+  templates_on.h templates_off.h
+init.o: init.c gsl_vector_double.h gsl_types.h gsl_errno.h \
+  gsl_check_range.h gsl_block_double.h templates_on.h init_source.c \
+  ../e_malloc.h templates_off.h
+view.o: view.c gsl_vector_double.h gsl_types.h gsl_errno.h \
+  gsl_check_range.h gsl_block_double.h view.h templates_on.h \
+  view_source.c templates_off.h
+strerror.o: strerror.c gsl_errno.h gsl_types.h
+block_init.o: block_init.c gsl_block.h gsl_block_double.h gsl_errno.h \
+  gsl_types.h templates_on.h block_init_source.c ../e_malloc.h \
+  templates_off.h
+matrix.o: matrix.c gsl_errno.h gsl_types.h gsl_matrix_double.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h templates_on.h \
+  matrix_source.c templates_off.h
+matrix_view.o: matrix_view.c gsl_errno.h gsl_types.h gsl_matrix_double.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h matrix_view.h \
+  templates_on.h
+matrix_init.o: matrix_init.c gsl_errno.h gsl_types.h gsl_matrix_double.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h templates_on.h \
+  matrix_init_source.c templates_off.h
+matrix_rowcol.o: matrix_rowcol.c gsl_math.h gsl_sys.h gsl_machine.h \
+  gsl_precision.h gsl_types.h gsl_nan.h gsl_matrix_double.h gsl_errno.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h matrix_view.h \
+  templates_on.h matrix_rowcol_source.c templates_off.h
+matrix_swap.o: matrix_swap.c gsl_matrix_double.h gsl_types.h gsl_errno.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h templates_on.h \
+  matrix_swap_source.c templates_off.h
+# 20 march 2001
+# rcsid = $Id: Makefile,v 1.2 2006/05/10 09:09:07 torda Exp $
+.POSIX:
+
+LIBNAME=minigsl
+
+ECHO=echo
+
+CFLAGS=$(OPTIMIZE) $(CWARN) $(DEFINES) $(CFLAGS_UPPER)
+
+SHELL = /bin/sh
+
+SRCS1 = blas.c error.c
+SRCS2 = 
+SRCS3 = permutation_init.c
+SRCS4 = lu.c
+SRCS5 = init.c view.c
+SRCS6 = strerror.c block_init.c
+SRCS7 = matrix.c matrix_view.c matrix_init.c matrix_rowcol.c matrix_swap.c
+
+SRCS  = $(SRCS1) $(SRCS2) $(SRCS3) $(SRCS4) $(SRCS5) $(SRCS6) $(SRCS7)
+
+
+WURSTLIB=libminigsl.a
+
+all: Makefile.$(LIBNAME)
+	$(MAKE) -f Makefile.$(LIBNAME) $(WURSTLIB)
+
+# Next few lines might be necessary on some machines like compaq.
+#COMPILE.c=$(CC) $(CFLAGS) $(CPPFLAGS) -c
+#.c.a:
+#	$(COMPILE.c) -o $% $<
+#	$(AR) $(ARFLAGS) $@ $%
+#	$(RM) $%
+
+$(WURSTLIB): $(LIB_DEPS)
+
+Makefile.$(LIBNAME): depend Makefile
+	@$(ECHO) "Rebuilding Makefile.$(LIBNAME)"
+	@$(ECHO) ".POSIX:"                           >  Makefile.$(LIBNAME)
+	@$(ECHO) "# Temporary deletable makefile"    >> Makefile.$(LIBNAME)
+	@$(ECHO) "# Do not bother editing this file" >> Makefile.$(LIBNAME)
+	@$(ECHO) "# Your changes will go away"       >> Makefile.$(LIBNAME)
+	@$(ECHO) "OBJS= " | tr -d \\\012\            >> Makefile.$(LIBNAME)
+	@for i in $(SRCS); do \
+            $(ECHO)  $$i  | sed -e s/\\\(.*\\\)\.c/\\1.o\ / | tr -d \\\012 \
+            >> Makefile.$(LIBNAME);\
+        done;\
+        $(ECHO)                                     >> Makefile.$(LIBNAME) ;\
+        $(ECHO) "LIB_DEPS = " | tr -d \\\012\       >> Makefile.$(LIBNAME)
+	@for i in $(SRCS); do \
+            $(ECHO) $$i | sed -e s/\\\(.*\\.\\\)c/$(WURSTLIB)\(\\1o\)\ / \
+            | tr -d \\\012\
+                                                    >> Makefile.$(LIBNAME);\
+        done;\
+	$(ECHO)                                     >> Makefile.$(LIBNAME);\
+	cat depend Makefile                         >> Makefile.$(LIBNAME)
+
+depend: Makefile
+	$(DEPENDER) $(SRCS) > depend
+
+perlstuff: Wurst/Makefile
+	cd ../Wurst; CC=$(CC) OPTIMIZE=$(OPTIMIZE) $(MAKE)
+
+tags:
+	etags $(SRCS)
+
+splint:
+	splint -preproc +posixlib -realcompare $(SRCS)
+
+clean:
+	@-rm -f *.o *~ *.ln
+	-rm -f Makefile.$(LIBNAME)
+	-rm -f $(WURSTLIB)
+	@-rm -f *.bbg *.da   # gnu coverage files
+	-rm -f depend core TAGS

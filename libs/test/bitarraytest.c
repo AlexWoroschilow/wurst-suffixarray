@@ -1,0 +1,36 @@
+
+/*
+ *  bitarraytest.c
+ *  testing the bit array implementation
+ *
+ *  @author Steve Hoffmann
+ *  @email steve@bioinf.uni-leipzig.de
+ *  @date 07/15/2007 02:12:32 AM CEST
+ *  
+ */
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "basic-types.h"
+#include "memory.h"
+#include "bitArray.h"
+
+
+int
+main(int argc, char**argv) {
+
+  bitarray a;
+
+  a = initbitarray(NULL, 10);
+  dumpbitarray(a, 10);
+  setbitarray(a, 10, 0);
+  dumpbitarray(a, 10);
+  setbit(a, 5, 1);
+  dumpbitarray(a, 10);
+  setbit(a, 9, 1);
+  dumpbitarray(a, 10);
+  return 0;
+}
+
+
+

@@ -1,0 +1,359 @@
+Tql-pdb
+v7
+r0
+t323017578.264632
+cCheck dependencies
+cProcessInfoPlistFile /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o /Users/margraf/code/ql-pdb/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o /Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h
+c000000004B90C8A60000000000000E87
+t1267779750
+s3719
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004B90C8A60000000000000AF4
+t1267779750
+s2804
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004B90FA5D0000000000000401
+t1267792477
+s1025
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B489326000000000000578C
+t1263047462
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+c000000004BE91B5D0000000000042ACF
+t1273568093
+s273103
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BE91B5D0000000000003F84
+t1273568093
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QuickLook.h
+c000000004B4872E40000000000000165
+t1263039204
+s357
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004AC59C810000000000002C18
+t1254464641
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004D53E6590000000000022140
+t1297344089
+s139584
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004D53E6590000000000781330
+t1297344089
+s7869232
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004D53E65D0000000000021710
+t1297344093
+s136976
+
+N/System/Library/Frameworks/QuickLook.framework/QuickLook
+c000000004D53E6B1000000000012F0D0
+t1297344177
+s1241296
+
+N/Users/margraf/code/ql-pdb/English.lproj/InfoPlist.strings
+c000000004D909E930000000000000176
+t1301323411
+s374
+
+N/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c
+c000000004D90A3E10000000000008B48
+t1301324769
+s35656
+i<CoreFoundation/CoreFoundation.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+i<ctype.h>
+i<errno.h>
+i<stdio.h>
+i<fcntl.h>
+i"e_malloc.h"
+i<string.h>
+i<math.h>
+i<GLUT/glut.h>
+i<OPENGL/glu.h>
+i<OPENGL/glext.h>
+i"main.h"
+i"specktacular.h"
+i"coord.h"
+i"pdbin_i.h"
+i<ctype.h>
+i<errno.h>
+i<stdio.h>
+i<fcntl.h>
+i"e_malloc.h"
+i<string.h>
+i<math.h>
+i<GLUT/glut.h>
+i<OPENGL/glu.h>
+i<OPENGL/glext.h>
+i"main.h"
+i"specktacular.h"
+i"coord.h"
+i"pdbin_i.h"
+
+N/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c
+c000000004D909E93000000000000034B
+t1301323411
+s843
+i<CoreFoundation/CoreFoundation.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+
+N/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator
+t2
+s0
+
+N/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist
+t1301324776
+s1586
+
+N/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/MacOS/ql-pdb
+t2
+s0
+
+N/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings
+t1301324777
+s374
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o
+t2
+s0
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o
+t1301324778
+s5572
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o
+t1301324778
+s12524
+
+N/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/ql-pdb.LinkFileList
+c000000004D90A3E8000000000000013E
+t1301324776
+s318
+
+N/Users/margraf/code/ql-pdb/coord.h
+c00000000471B40D700000000000005EE
+t1192968407
+s1518
+
+N/Users/margraf/code/ql-pdb/e_malloc.h
+c000000004615F9540000000000000519
+t1175845204
+s1305
+
+N/Users/margraf/code/ql-pdb/main.c
+c000000004D909E93000000000000249C
+t1301323411
+s9372
+i<CoreFoundation/CoreFoundation.h>
+i<CoreFoundation/CFPlugInCOM.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+
+NInfo.plist
+c000000004D909E93000000000000068B
+t1301323411
+s1675
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323017576#323017576#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323017577.372831
+e323017578.264358
+r0
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o
+x/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:15:18: error: main.h: No such file or directory
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:16:26: error: specktacular.h: No such file or directory
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:18:21: error: pdbin_i.h: No such file or directory
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:20:1: warning: "bool" redefined
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:31,
+o                 from /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h:36:1: warning: this is the location of the previous definition
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:28: error: 'kWindowWidth' undeclared here (not in a function)
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:28: error: 'kWindowHeight' undeclared here (not in a function)
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:89:1: warning: "bool" redefined
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:20:1: warning: this is the location of the previous definition
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:94: error: redefinition of 'sphi'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:25: error: previous definition of 'sphi' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:94: error: redefinition of 'stheta'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:25: error: previous definition of 'stheta' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:95: error: redefinition of 'sdepth'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:26: error: previous definition of 'sdepth' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:96: error: redefinition of 'zNear'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:27: error: previous definition of 'zNear' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:96: error: redefinition of 'zFar'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:27: error: previous definition of 'zFar' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:97: error: redefinition of 'aspect'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:28: error: previous definition of 'aspect' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:100: error: redefinition of 'leftButton'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:31: error: previous definition of 'leftButton' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:100: error: redefinition of 'middleButton'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:31: error: previous definition of 'middleButton' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:103: error: redeclaration of enumerator 'BACKBONE_MODE'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:34: error: previous definition of 'BACKBONE_MODE' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:103: error: redeclaration of enumerator 'TRACE_MODE'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:34: error: previous definition of 'TRACE_MODE' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:103: error: redeclaration of enumerator 'RIBBON_MODE'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:34: error: previous definition of 'RIBBON_MODE' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:103: error: redeclaration of enumerator 'RIBBON3D_MODE'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:34: error: previous definition of 'RIBBON3D_MODE' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:104: error: redefinition of 'MAX_DRAW_MODES'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:35: error: previous definition of 'MAX_DRAW_MODES' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'PPL2_SHADER'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'PPL2_SHADER' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'PHONG_SHADER'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'PHONG_SHADER' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'GOOCH_SHADER'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'GOOCH_SHADER' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'LATTICE_SHADER'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'LATTICE_SHADER' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'TEST_SHADER'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'TEST_SHADER' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:106: error: redefinition of 'MAX_SHADE_MODES'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:37: error: previous definition of 'MAX_SHADE_MODES' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:107: error: redefinition of 'drawmode'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:38: error: previous definition of 'drawmode' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:108: error: redefinition of 'shademode'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:39: error: previous definition of 'shademode' was here
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'DrawProt':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:200: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'DrawRibbon':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:312: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'Draw3dRibbon':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:425: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'DrawTrace':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:627: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'InitGL':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:756: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:792: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:810: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:828: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'setShader':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:989: warning: passing argument 3 of 'glShaderSourceARB' from incompatible pointer type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:990: warning: passing argument 3 of 'glShaderSourceARB' from incompatible pointer type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'initState':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1138: error: invalid application of 'sizeof' to incomplete type 'struct speckstate' 
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1139: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1140: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'GeneratePreviewForURL':
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1153: error: nested functions are disabled, use -fnested-functions to re-enable
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1153: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'CFURLGetString'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: error: dereferencing pointer to incomplete type
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: warning: implicit declaration of function 'pdb_read'
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: error: 'filepath' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: error: (Each undeclared identifier is reported only once
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: error: for each function it appears in.)
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1156: error: 'argc' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1156: error: 'argv' undeclared (first use in this function)
+o/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1177:2: warning: #warning To complete your generator please implement the function GeneratePreviewForURL in GeneratePreviewForURL.c
+lSLF07#2@58"Compile /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017577#323017578#0(8744"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:15:18: error: main.h: No such file or directory/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:16:26: error: specktacular.h: No such file or directory/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:18:21: error: pdbin_i.h: No such file or directory/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:20:1: warning: "bool" redefinedIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:31,                 from /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1:/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h:36:1: warning: this is the location of the previous definition/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:28: error: 'kWindowWidth' undeclared here (not in a function)/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:28: error: 'kWindowHeight' undeclared here (not in a function)/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:89:1: warning: "bool" redefined/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:20:1: warning: this is the location of the previous definition/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:94: error: redefinition of 'sphi'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:25: error: previous definition of 'sphi' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:94: error: redefinition of 'stheta'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:25: error: previous definition of 'stheta' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:95: error: redefinition of 'sdepth'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:26: error: previous definition of 'sdepth' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:96: error: redefinition of 'zNear'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:27: error: previous definition of 'zNear' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:96: error: redefinition of 'zFar'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:27: error: previous definition of 'zFar' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:97: error: redefinition of 'aspect'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:28: error: previous definition of 'aspect' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:100: error: redefinition of 'leftButton'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:31: error: previous definition of 'leftButton' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:100: error: redefinition of 'middleButton'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:31: error: previous definition of 'middleButton' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:103: error: redeclaration of enumerator 'BACKBONE_MODE'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:34: error: previous definition of 'BACKBONE_MODE' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:103: error: redeclaration of enumerator 'TRACE_MODE'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:34: error: previous definition of 'TRACE_MODE' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:103: error: redeclaration of enumerator 'RIBBON_MODE'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:34: error: previous definition of 'RIBBON_MODE' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:103: error: redeclaration of enumerator 'RIBBON3D_MODE'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:34: error: previous definition of 'RIBBON3D_MODE' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:104: error: redefinition of 'MAX_DRAW_MODES'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:35: error: previous definition of 'MAX_DRAW_MODES' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'PPL2_SHADER'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'PPL2_SHADER' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'PHONG_SHADER'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'PHONG_SHADER' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'GOOCH_SHADER'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'GOOCH_SHADER' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'LATTICE_SHADER'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'LATTICE_SHADER' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:105: error: redeclaration of enumerator 'TEST_SHADER'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:36: error: previous definition of 'TEST_SHADER' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:106: error: redefinition of 'MAX_SHADE_MODES'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:37: error: previous definition of 'MAX_SHADE_MODES' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:107: error: redefinition of 'drawmode'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:38: error: previous definition of 'drawmode' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:108: error: redefinition of 'shademode'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:39: error: previous definition of 'shademode' was here/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'DrawProt':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:200: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'DrawRibbon':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:312: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'Draw3dRibbon':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:425: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'DrawTrace':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:627: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'InitGL':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:756: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:792: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:810: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:828: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'setShader':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:989: warning: passing argument 3 of 'glShaderSourceARB' from incompatible pointer type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:990: warning: passing argument 3 of 'glShaderSourceARB' from incompatible pointer type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'initState':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1138: error: invalid application of 'sizeof' to incomplete type 'struct speckstate' /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1139: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1140: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c: In function 'GeneratePreviewForURL':/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1153: error: nested functions are disabled, use -fnested-functions to re-enable/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1153: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'CFURLGetString'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: error: dereferencing pointer to incomplete type/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: warning: implicit declaration of function 'pdb_read'/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: error: 'filepath' undeclared (first use in this function)/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: error: (Each undeclared identifier is reported only once/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1154: error: for each function it appears in.)/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1156: error: 'argc' undeclared (first use in this function)/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1156: error: 'argv' undeclared (first use in this function)/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c:1177:2: warning: #warning To complete your generator please implement the function GeneratePreviewForURL in GeneratePreviewForURL.c72(4@33"Main.h: No such file or directory323017578#0#99#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#15#0#15#0#28"*: No such file or directory0(4@41"Specktacular.h: No such file or directory323017578#99#107#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#16#0#16#0#28"*: No such file or directory0(4@36"Pdbin_i.h: No such file or directory323017578#206#102#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#18#0#18#0#28"*: No such file or directory0(22@16""bool" redefined323017578#308#83#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#20#0#20#0#13""*" redefined0(22@47"This is the location of the previous definition323017578#600#150#3(7@72"In file included from /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017578#18446744073709551615#0#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1#0#1#0#0"0(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h323017578#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h289472550#31#0#31#0#0"0(13@137"This is the location of the previous definition in /Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h323017578#18446744073709551615#0#0(6@86"/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h276157751#36#0#36#0#0"0(6@86"/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h276157751#36#0#36#0#47"this is the location of the previous definition0(4@50"'kWindowWidth' undeclared here (not in a function)323017578#750#113#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#28#0#28#0#39"'*' undeclared here (not in a function)0(4@51"'kWindowHeight' undeclared here (not in a function)323017578#863#114#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#28#0#28#0#39"'*' undeclared here (not in a function)0(22@16""bool" redefined323017578#977#83#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#89#0#89#0#13""*" redefined0(22@47"This is the location of the previous definition323017578#1060#114#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#20#0#20#0#47"this is the location of the previous definition0(4@22"Redefinition of 'sphi'323017578#1174#85#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#94#0#94#0#19"redefinition of '*'0(13@38"Previous definition of 'sphi' was here323017578#1259#101#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#25#0#25#0#35"previous definition of '*' was here0(4@24"Redefinition of 'stheta'323017578#1360#87#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#94#0#94#0#19"redefinition of '*'0(13@40"Previous definition of 'stheta' was here323017578#1447#103#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#25#0#25#0#35"previous definition of '*' was here0(4@24"Redefinition of 'sdepth'323017578#1550#87#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#95#0#95#0#19"redefinition of '*'0(13@40"Previous definition of 'sdepth' was here323017578#1637#103#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#26#0#26#0#35"previous definition of '*' was here0(4@23"Redefinition of 'zNear'323017578#1740#86#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#96#0#96#0#19"redefinition of '*'0(13@39"Previous definition of 'zNear' was here323017578#1826#102#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#27#0#27#0#35"previous definition of '*' was here0(4@22"Redefinition of 'zFar'323017578#1928#85#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#96#0#96#0#19"redefinition of '*'0(13@38"Previous definition of 'zFar' was here323017578#2013#101#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#27#0#27#0#35"previous definition of '*' was here0(4@24"Redefinition of 'aspect'323017578#2114#87#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#97#0#97#0#19"redefinition of '*'0(13@40"Previous definition of 'aspect' was here323017578#2201#103#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#28#0#28#0#35"previous definition of '*' was here0(4@28"Redefinition of 'leftButton'323017578#2304#92#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#100#0#100#0#19"redefinition of '*'0(13@44"Previous definition of 'leftButton' was here323017578#2396#107#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#31#0#31#0#35"previous definition of '*' was here0(4@30"Redefinition of 'middleButton'323017578#2503#94#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#100#0#100#0#19"redefinition of '*'0(13@46"Previous definition of 'middleButton' was here323017578#2597#109#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#31#0#31#0#35"previous definition of '*' was here0(4@43"Redeclaration of enumerator 'BACKBONE_MODE'323017578#2706#107#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#103#0#103#0#0"0(13@47"Previous definition of 'BACKBONE_MODE' was here323017578#2813#110#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#34#0#34#0#35"previous definition of '*' was here0(4@40"Redeclaration of enumerator 'TRACE_MODE'323017578#2923#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#103#0#103#0#0"0(13@44"Previous definition of 'TRACE_MODE' was here323017578#3027#107#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#34#0#34#0#35"previous definition of '*' was here0(4@41"Redeclaration of enumerator 'RIBBON_MODE'323017578#3134#105#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#103#0#103#0#0"0(13@45"Previous definition of 'RIBBON_MODE' was here323017578#3239#108#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#34#0#34#0#35"previous definition of '*' was here0(4@43"Redeclaration of enumerator 'RIBBON3D_MODE'323017578#3347#107#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#103#0#103#0#0"0(13@47"Previous definition of 'RIBBON3D_MODE' was here323017578#3454#110#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#34#0#34#0#35"previous definition of '*' was here0(4@32"Redefinition of 'MAX_DRAW_MODES'323017578#3564#96#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#104#0#104#0#19"redefinition of '*'0(13@48"Previous definition of 'MAX_DRAW_MODES' was here323017578#3660#111#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#35#0#35#0#35"previous definition of '*' was here0(4@41"Redeclaration of enumerator 'PPL2_SHADER'323017578#3771#105#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#105#0#105#0#0"0(13@45"Previous definition of 'PPL2_SHADER' was here323017578#3876#108#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#36#0#36#0#35"previous definition of '*' was here0(4@42"Redeclaration of enumerator 'PHONG_SHADER'323017578#3984#106#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#105#0#105#0#0"0(13@46"Previous definition of 'PHONG_SHADER' was here323017578#4090#109#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#36#0#36#0#35"previous definition of '*' was here0(4@42"Redeclaration of enumerator 'GOOCH_SHADER'323017578#4199#106#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#105#0#105#0#0"0(13@46"Previous definition of 'GOOCH_SHADER' was here323017578#4305#109#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#36#0#36#0#35"previous definition of '*' was here0(4@44"Redeclaration of enumerator 'LATTICE_SHADER'323017578#4414#108#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#105#0#105#0#0"0(13@48"Previous definition of 'LATTICE_SHADER' was here323017578#4522#111#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#36#0#36#0#35"previous definition of '*' was here0(4@41"Redeclaration of enumerator 'TEST_SHADER'323017578#4633#105#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#105#0#105#0#0"0(13@45"Previous definition of 'TEST_SHADER' was here323017578#4738#108#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#36#0#36#0#35"previous definition of '*' was here0(4@33"Redefinition of 'MAX_SHADE_MODES'323017578#4846#97#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#106#0#106#0#19"redefinition of '*'0(13@49"Previous definition of 'MAX_SHADE_MODES' was here323017578#4943#112#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#37#0#37#0#35"previous definition of '*' was here0(4@26"Redefinition of 'drawmode'323017578#5055#90#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#107#0#107#0#19"redefinition of '*'0(13@42"Previous definition of 'drawmode' was here323017578#5145#105#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#38#0#38#0#35"previous definition of '*' was here0(4@27"Redefinition of 'shademode'323017578#5250#91#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#108#0#108#0#19"redefinition of '*'0(13@43"Previous definition of 'shademode' was here323017578#5341#106#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#39#0#39#0#35"previous definition of '*' was here0(4@40"Dereferencing pointer to incomplete type323017578#5523#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#200#0#200#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#5705#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#312#0#312#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#5889#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#425#0#425#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#6070#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#627#0#627#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#6248#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#756#0#756#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#6352#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#792#0#792#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#6456#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#810#0#810#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#6560#104#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#828#0#828#0#0"0(22@72"Passing argument 3 of 'glShaderSourceARB' from incompatible pointer type323017578#6741#138#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#989#0#989#0#56"passing argument * of '*' from incompatible pointer type0(22@72"Passing argument 3 of 'glShaderSourceARB' from incompatible pointer type323017578#6879#138#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#990#0#990#0#56"passing argument * of '*' from incompatible pointer type0(4@71"Invalid application of 'sizeof' to incomplete type 'struct speckstate' 323017578#7094#136#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1138#0#1138#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#7230#105#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1139#0#1139#0#0"0(4@40"Dereferencing pointer to incomplete type323017578#7335#105#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1140#0#1140#0#0"0(4@66"Nested functions are disabled, use -fnested-functions to re-enable323017578#7529#131#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1153#0#1153#0#66"nested functions are disabled, use -fnested-functions to re-enable0(4@72"Expected '=', ',', ';', 'asm' or '__attribute__' before 'CFURLGetString'323017578#7660#137#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1153#0#1153#0#19"expected * before *0(4@40"Dereferencing pointer to incomplete type323017578#7797#105#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1154#0#1154#0#0"0(22@43"Implicit declaration of function 'pdb_read'323017578#7902#110#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1154#0#1154#0#36"implicit declaration of function '*'0(4@50"'filepath' undeclared (first use in this function)323017578#8012#115#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1154#0#1154#0#43"'*' undeclared (first use in this function)0(4@46"'argc' undeclared (first use in this function)323017578#8339#111#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1156#0#1156#0#43"'*' undeclared (first use in this function)0(4@46"'argv' undeclared (first use in this function)323017578#8450#111#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1156#0#1156#0#43"'*' undeclared (first use in this function)0(22@114"#warning To complete your generator please implement the function GeneratePreviewForURL in GeneratePreviewForURL.c323017578#8561#183#0(6@50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c323017569#1177#0#1177#0#10"#warning *0(0#0#50"/Users/margraf/code/ql-pdb/GeneratePreviewForURL.c8630875968#835"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/GeneratePreviewForURL.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o1#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o /Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323017577.373791
+e323017578.132297
+r1
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o
+x/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c:13:6: warning: #warning To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c
+lSLF07#2@60"Compile /Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c323017577#323017578#0(187"/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c:13:6: warning: #warning To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c1(22@118"#warning To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c323017578#0#187#0(6@52"/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c323016211#13#0#13#0#10"#warning *0(0#0#52"/Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c8630701984#839"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/GenerateThumbnailForURL.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o0#
+
+CCompileC build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o /Users/margraf/code/ql-pdb/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323017577.371842
+e323017578.140761
+r1
+xCompileC
+xbuild/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o
+x/Users/margraf/code/ql-pdb/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/margraf/code/ql-pdb/main.c323017577#323017578#0(0"0(0#0#33"/Users/margraf/code/ql-pdb/main.c8630999456#801"    cd /Users/margraf/code/ql-pdb    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/ql-pdb.hmap -F/Users/margraf/code/ql-pdb/build/Debug -I/Users/margraf/code/ql-pdb/build/Debug/include -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources/x86_64 -I/Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/DerivedSources -c /Users/margraf/code/ql-pdb/main.c -o /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o0#
+
+CCopyStringsFile /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s323017576.745569
+e323017577.371733
+r1
+xCopyStringsFile
+x/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings323017576#323017577#0(0"0(0#0#58"/Users/margraf/code/ql-pdb/English.lproj/InfoPlist.strings8631140896#349"    cd /Users/margraf/code/ql-pdb    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj0#
+
+CLd /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/MacOS/ql-pdb normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist Info.plist
+s323017576.691587
+e323017576.745434
+r1
+xProcessInfoPlistFile
+x/Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist323017576#323017576#0(0"0(0#0#37"/Users/margraf/code/ql-pdb/Info.plist28429470871191664#193"    cd /Users/margraf/code/ql-pdb    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist0#
+
+CTouch /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator
+r0
+

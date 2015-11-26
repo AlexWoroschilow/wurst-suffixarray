@@ -1,0 +1,34 @@
+
+#ifndef WURST_IMBISS_H
+#define WURST_IMBISS_H
+
+/*
+ *
+ *	wurstimbiss.h
+ *  basic declarations
+ * 
+ *  @author Steve Hoffmann, shoffmann@zbh.uni-hamburg.de
+ *  @company Center for Bioinformatics, Hamburg 
+ *  @date 03/25/07 01:24:22 CET  
+ *
+ */
+
+#include "basic-types.h"
+#include "stringutils.h"
+
+typedef struct {
+	stringset_t *query;
+	double *score;
+	double *scrf;
+	double *sf;
+	double *df;
+	Uint *sortind;
+	
+	double lambda;
+	double H;
+	double K;
+} imbissinfo;
+
+
+
+#endif

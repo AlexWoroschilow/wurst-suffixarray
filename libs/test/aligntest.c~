@@ -1,0 +1,34 @@
+
+/*
+ *  aligntest.c
+ *  test for dpalign methods
+ *
+ *  @author Steve Hoffmann
+ *  @email shoffmann@zbh.uni-hamburg.de
+ *  @date 03/19/07 02:15:23 CET
+ *  
+ */
+#include <stdlib.h>
+#include <stdio.h>
+#include "basic-types.h"
+#include "memory.h"
+#include "mathematics.h"
+#include "dpalign.h"
+
+void testedist(space) {
+
+	int i, j, *sub;
+  	char *sb = "dbadad";
+	char *sa = "ada";
+	
+	sub = INITMATRIX2D(space, 1500, 1500, sizeof(Uint));
+	sub = memset(sub, 0, sizeof(Uint)*(1500*1500));
+	for(i=0; i < 300; i++) {
+		for(j=0; j < 300; j++) {
+			MATRIX2D(sub, 1500, i, j) = 1;
+		}
+	}
+	
+	printf("the distance is %d\n", edist(space, sa, 3, sb, 6, 1, sub, 1500));
+    FREEMEMORY(space, sub);
+}

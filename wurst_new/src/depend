@@ -1,0 +1,91 @@
+align.o: align.c align_i.h amino_a.h e_malloc.h matrix.h mprintf.h \
+  pair_set.h score_mat.h score_mat_i.h
+altscores.o: altscores.c altscores.h e_malloc.h pair_set.h score_mat.h
+amino_a.o: amino_a.c amino_a.h
+binver.o: binver.c binver.h
+cmp_dmat.o: cmp_dmat.c cmp_dmat_i.h coord.h e_malloc.h
+common.o: common.c
+classifyStructure.o: classifyStructure.c bad_angle.h classifyStructure.h \
+  class_model.h coord_i.h e_malloc.h mprintf.h prob_vec.h prob_vec_i.h \
+  read_ac_strct.h read_ac_strct_i.h
+class_model.o: class_model.c gsldir/gsl_sf_erf.h gsldir/gsl_sf_result.h \
+  gsldir/gsl_linalg.h gsldir/gsl_mode.h gsldir/gsl_permutation.h \
+  gsldir/gsl_types.h gsldir/gsl_errno.h gsldir/gsl_check_range.h \
+  gsldir/gsl_vector_double.h gsldir/gsl_block_double.h \
+  gsldir/gsl_matrix_double.h gsldir/gsl_blas.h gsldir/gsl_blas_types.h \
+  gsldir/gsl_cblas.h amino_a.h bad_angle.h e_malloc.h mprintf.h fio.h \
+  class_model.h
+lsqf.o: lsqf.c e_malloc.h coord_i.h coord.h pair_set.h lsqf.h mprintf.h \
+  pdbout_i.h seq.h read_seq_i.h
+multialign.o: multialign.c align_i.h e_malloc.h matrix.h mprintf.h \
+  multialign.h pair_set.h score_mat_i.h prob_vec.h prob_vec_i.h \
+  score_mat.h score_probvec.h pair_set_i.h
+coord.o: coord.c bad_angle.h binver.h e_malloc.h mgc_num.h coord.h \
+  coord_i.h dihedral.h fio.h mprintf.h read_seq_i.h scratch.h sec_s_i.h \
+  sec_s.h str.h yesno.h
+coordinfo.o: coordinfo.c mprintf.h e_malloc.h coord.h sec_s.h sec_s_i.h \
+  coordinfo_i.h
+dbg.o: dbg.c dbg.h
+dihedral.o: dihedral.c coord.h dihedral.h vec_i.h
+dipep.o: dipep.c amino_a.h dipep_i.h e_malloc.h fio.h misc.h mprintf.h \
+  read_seq_i.h scratch.h score_mat.h seq.h
+e_malloc.o: e_malloc.c e_malloc.h mprintf.h
+fio.o: fio.c fio.h mprintf.h
+srand.o: srand.c srand.h
+geo_gap.o: geo_gap.c coord.h geo_gap.h mprintf.h
+matrix.o: matrix.c e_malloc.h matrix.h mprintf.h
+mgc_num.o: mgc_num.c mgc_num.h mprintf.h
+misc.o: misc.c misc.h
+model.o: model.c coord.h coord_i.h e_malloc.h matrix.h model.h mprintf.h \
+  pair_set.h read_seq_i.h seq.h score_mat.h
+mprintf.o: mprintf.c mprintf.h
+pair_set.o: pair_set.c matrix.h e_malloc.h mprintf.h pair_set_i.h \
+  pair_set.h read_seq_i.h scratch.h seq.h
+pair_set_p.o: pair_set_p.c coord.h dbg.h e_malloc.h mprintf.h pair_set.h \
+  pair_set_p_i.h read_seq_i.h scratch.h sec_s.h sec_s_i.h seq.h yesno.h
+param_fx.o: param_fx.c fio.h fx.h param_fx_i.h e_malloc.h matrix.h \
+  mprintf.h
+pair_set_chim.o: pair_set_chim.c coord.h e_malloc.h fio.h mprintf.h \
+  pair_set.h pair_set_chim.h scratch.h str.h
+pdbin.o: pdbin.c amino_a.h coord.h coord_i.h e_malloc.h fio.h mprintf.h \
+  pdbin_i.h read_seq_i.h str.h vec_i.h yesno.h
+pdbout.o: pdbout.c coord.h coord_i.h fio.h mprintf.h read_seq_i.h yesno.h \
+  pdbout_i.h seq.h scor_set.h
+prob_vec.o: prob_vec.c e_malloc.h fio.h matrix.h mgc_num.h mprintf.h \
+  prob_vec.h prob_vec_i.h scratch.h seq.h
+read_ac_strct.o: read_ac_strct.c amino_a.h bad_angle.h \
+  classifyStructure.h class_model.h coord.h coord_i.h e_malloc.h fio.h \
+  matrix.h mprintf.h prob_vec.h prob_vec_i.h read_ac.h read_ac_i.h \
+  read_ac_strct.h read_ac_strct_i.h read_seq_i.h seq.h seq_i.h seqprof.h \
+  str.h yesno.h
+read_ac.o: read_ac.c amino_a.h e_malloc.h fio.h matrix.h mprintf.h \
+  prob_vec.h prob_vec_i.h read_ac.h read_ac_i.h read_seq_i.h seq.h \
+  seqprof.h str.h
+read_blst.o: read_blst.c amino_a.h e_malloc.h fio.h matrix.h mprintf.h \
+  read_blst.h read_seq_i.h scratch.h seq.h seqprof.h
+read_mat.o: read_mat.c amino_a.h e_malloc.h fio.h read_mat.h scratch.h \
+  sub_mat.h mprintf.h str.h
+read_sec.o: read_sec.c e_malloc.h fio.h misc.h mprintf.h read_sec_i.h \
+  scratch.h sec_s.h sec_s_i.h str.h
+read_seq.o: read_seq.c amino_a.h e_malloc.h fio.h mprintf.h read_seq_i.h \
+  scratch.h seq.h str.h
+rescore.o: rescore.c e_malloc.h rmacros.h seq.h coord.h coord_i.h \
+  read_seq_i.h fio.h mprintf.h misc.h rescore.h cp_cc_allat+0.h
+scor_set.o: scor_set.c score_mat.h pair_set.h scor_set.h scor_set_i.h \
+  e_malloc.h mprintf.h
+score_fx.o: score_fx.c coord.h coord_i.h e_malloc.h mprintf.h score_mat.h \
+  score_fx_i.h read_seq_i.h seq.h fx.h seqprof.h dihedral.h
+score_mat.o: score_mat.c e_malloc.h fio.h matrix.h mprintf.h read_seq_i.h \
+  score_mat.h score_mat_i.h scratch.h seq.h str.h pair_set.h pair_set_i.h
+score_probvec.o: score_probvec.c e_malloc.h mprintf.h prob_vec.h \
+  prob_vec_i.h score_mat.h score_mat_i.h score_probvec.h
+score_sec.o: score_sec.c coord.h coord_i.h mprintf.h sec_s.h score_mat.h \
+  score_sec_i.h
+score_smat.o: score_smat.c amino_a.h mprintf.h read_seq_i.h score_mat.h \
+  score_smat.h seq.h seqprof.h sub_mat.h
+scratch.o: scratch.c e_malloc.h scratch.h
+sec_s.o: sec_s.c mprintf.h coord.h e_malloc.h sec_s.h sec_s_i.h
+silly.o: silly.c scratch.h silly.h
+str.o: str.c e_malloc.h str.h
+seq.o: seq.c e_malloc.h read_seq_i.h seq.h seq_i.h str.h
+vec.o: vec.c coord.h vec_i.h

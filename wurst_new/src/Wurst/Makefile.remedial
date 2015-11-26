@@ -1,0 +1,16 @@
+# This is a hack to work around problems with perl versions.
+# Basically, only a fresh, automatically generated Makefile will
+# work when one changes machines (types/perl versions).
+
+
+MODNAME = Wurst
+
+clean:
+	@-rm -f *.o *~ *.ln
+	@-rm *.bs
+	@-rm -rf blib
+	@-rm -f $(MODNAME).c
+		@-rm -f pm_to_blib
+		@-rm Makefile.old
+
+

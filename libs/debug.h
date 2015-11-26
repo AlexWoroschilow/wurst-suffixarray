@@ -1,0 +1,25 @@
+ #ifndef DEBUG_H
+ #define DEBUG_H
+
+/*
+ *
+ *	debug.h
+ *  debug messages
+ * 
+ *  @author Steve Hoffmann, steve@bioinf.uni-leipzig.de
+ *  @company Bioinformatics, University of Leipzig 
+ *  @date 08/26/2007 07:17:44 PM CEST  
+ *
+ */
+
+ #include <stdarg.h>
+ #include <stdio.h>
+ #include <string.h>
+
+
+ #define DEBUG(X, ...) debugmsg(__FILE__, __LINE__, X, __VA_ARGS__)
+
+ int debugmsg(char *, int, const char *fmt, ...);
+
+
+ #endif

@@ -1,0 +1,3 @@
+/smallfiles/public/no_backup/bm/pdb_all.seq_6mer_struct/seq/3vkhC.vec
+/smallfiles/public/no_backup/bm/pdb_all.seq_6mer_struct/seq/3vkhA.vec
+/smallfiles/public/no_backup/bm/pdb_all.seq_6mer_struct/seq/101mA.vec

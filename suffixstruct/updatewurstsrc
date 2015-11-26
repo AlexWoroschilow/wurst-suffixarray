@@ -1,0 +1,13 @@
+
+rellino:~/coding/c/suffixstruct steve$ mv e_malloc.c old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv e_malloc.h old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv fio.h old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv fio.c old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv matrix.c old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv matrix.h old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv mgc_num.h old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv mgc_num.c old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv mprintf.c old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv mprintf.h old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv prob_vec* old_wurst/
+Fiorellino:~/coding/c/suffixstruct steve$ mv scratch* old_wurst/

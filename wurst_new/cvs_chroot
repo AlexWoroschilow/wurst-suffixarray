@@ -1,0 +1,268 @@
+#!/usr/bin/env python
+"""cvs_chroot
+
+Change the repository directory of an existing CVS working directory
+(actually, a whole working tree).  Very handy when you're moving
+repositories around and don't want to re-check-out the whole world; nearly
+essential when you have a heavily customized working directory (lots of
+uncommited changes, a forest of symlinks to make everything work, etc.).
+
+Using "cvs_chroot" is simple: just put yourself in the top of the working
+directory that needs to be adjusted, and run
+
+    cvs_chroot <new_repository_root>
+
+For example, if you've just moved your CVS repository from /home/cvs to
+/cvs, then you would go to some working directory and run
+
+    cvs_chroot /cvs
+
+Or if you've just uploaded a local project to a remote CVS server, so that
+all the net may share in its development, you might do something like this:
+
+    cvs_chroot :pserver:[EMAIL PROTECTED]:/cvsroot/python
+
+(assuming that the project in question is Python, and the remote CVS server
+is one of SourceForge's).  Of course, this also applies if you just happen
+to have a working tree of the project in question -- you don't have to be
+the one who uploaded it to SourceForge (or wherever).
+
+If you're paranoid and/or curious, just run "chroot" with the "-n" option
+-- it'll tell you what it would do, without actually doing anything.
+"""
+
+# created 2000/05/12 (Greg Ward)
+# documented 2000/05/17
+
+__revision__ = "$Id: cvs_chroot,v 1.8 2000/05/22 19:06:09 gward Exp $"
+
+import sys, os, string
+import getopt
+
+USAGE = "usage: %s [-n] newroot"
+
+
+"""If you're curious about how it works, here's the whole story:
+"cvs_chroot" walks a directory tree, finding all CVS directories under it,
+and adjusting the "Root" and "Repository" file in each CVS directory.  The
+terminology is a bit wonky here (blame CVS), so pay attention: the "Root"
+files contain the location of the repository -- ie. the directory named in
+the CVSROOT environment variable or specified in the CVS "-d" option.  For
+example, if you check something out as follows:
+
+    CVSROOT=/home/cvs cvs checkout project
+
+(or cvs -d /home/cvs checkout project; the two are equivalent), then every
+"CVS/Root" file under "project" will contain the sole line "/home/cvs".
+Every "CVS/Repository" file will contain the full path to the repository
+directory for that particular working directory, or a path which is
+relative to the root (CVS supports both forms).  For example, if "project"
+is laid out like:
+
+    project --+ src ---+ module1
+              |        | module2
+              | doc
+
+then the file "project/src/CVS/Repository" would contain either
+"/home/cvs/project/src" or "project/src", and the file
+"project/src/module1/CVS/Repository" would contain either
+"/home/cvs/project/src/module1" or "project/src/module1".
+
+If you're dealing with a remote repository, then things are a bit more
+complex: the "Root" files are still all the same and contain the value of
+CVSROOT or the "-d" option when you checked the project out, but the
+Repository files leave off the remote bit (everything up to the last
+colon).  For example, if you checkout "project" from a remote server:
+
+   cvs -d :pserver:[EMAIL PROTECTED]:/home/cvs checkout project
+
+then the "CVS/Root" files under "project" will all contain
+":pserver:[EMAIL PROTECTED]:/home/cvs", but the "CVS/Repository" files
+will be the same as before -- i.e., they will start with "/home/cvs".  This
+time, of course, that's "/home/cvs" on the host cvs.somewhere.net.
+
+Thus, cvs_chroot has to do the following for each CVS directory it finds:
+  * replace the contents of "Root" with the new repository root
+  * chop off the old repository root fragment (directory only, no
+    host information) from the Repository file, and replace
+    it with the new repository root fragment
+
+If cvs_chroot finds any inconsistencies in the Root or Repository files of
+your working directory, it prints a warning and skips the afflicted
+directory.  (This can happen if you have a subtree of your working tree
+checked out differently, eg. from a different repository.  In that case,
+you'll have to run "cvs_chroot" on each such oddball subtree.)
+"""
+
+def warn (msg):
+    lines = string.split(msg, "\n")
+    sys.stderr.write("warning: " + lines[0] + "\n")
+    for l in lines[1:]:
+        sys.stderr.write ("         " + l + "\n")
+
+def find_cvs_dirs (start_dir):
+    p = os.popen("find %s -type d -name CVS" % start_dir, "r")
+    dirs = []
+    while 1:
+        d = p.readline()
+        if not d:
+            break
+        if d[-1] == "\n":
+            d = d[0:-1]
+        if d[0:2] == "./":
+            d = d[2:]
+
+        dirs.append(d)
+
+    return dirs
+
+def split_root (root):
+    lastcolon = string.rfind(root, ":")
+    if lastcolon != -1:
+        root_host = root[0:lastcolon]
+        root_dir = root[lastcolon+1:]
+    else:
+        root_host = None
+        root_dir = root
+    return (root_host, root_dir)
+
+def repos_filenames (dir):
+    return (os.path.join(dir, "Root"),
+            os.path.join(dir, "Repository"))
+
+def read_repos (dir):
+    (root_fn, repos_fn) = repos_filenames(dir)
+    root = open(root_fn).readline()[0:-1]
+    repos = open(repos_fn).readline()[0:-1]
+    return (root, repos)
+
+def write_repos (dir, root, repos):
+    (root_fn, repos_fn) = repos_filenames(dir)
+    root_bk = root_fn + "~"
+    repos_bk = repos_fn + "~"
+    if os.path.exists(root_bk):
+        os.remove(root_bk)
+    if os.path.exists(repos_bk):
+        os.remove(repos_bk)
+    try:
+        os.rename(root_fn, root_bk)
+        os.rename(repos_fn, repos_bk)
+        open(root_fn, "w").write(root + "\n")
+        open(repos_fn, "w").write(repos + "\n")
+    except (IOError, os.error):
+        try:
+            os.rename(root_bk, root_fn)
+            os.rename(repos_bk, repos_fn)
+        except (IOError, os.error):
+            pass
+        
+
+def main (prog, args):
+    usage = USAGE % os.path.basename(prog)
+
+    dry_run = None
+    help = None
+    try:
+        (opts, args) = getopt.getopt(args, "nh")
+        for (opt, _) in opts:
+            if opt == "-n":
+                dry_run = 1
+            elif opt == "-h":
+                help = 1
+    except getopt.error, msg:
+        raise SystemExit, usage + "\n" + msg
+
+    if help:
+        print __doc__
+        print usage
+        sys.exit(0)
+
+    if len(args) != 1:
+        raise SystemExit, \
+              usage + "\nWrong number of arguments"
+
+    new_root = args[0]
+    (new_root_host, new_root_dir) = split_root(new_root)
+
+    (top_root, top_repos) = read_repos ("CVS")
+
+    sys.stdout.write("Finding CVS directories..."); sys.stdout.flush()
+    cvsdirs = find_cvs_dirs (".")
+    sys.stdout.write("found %d of them\n" % len(cvsdirs))
+    
+    for dir in cvsdirs:
+        (root, repos) = read_repos(dir)
+        (root_host, root_dir) = split_root(root)
+        orig_repos = repos              # so we can tweak 'repos' but still
+                                        # report the original value
+
+        # The CVS/Root file must be consistent throughout the entire
+        # working tree; skip any directory where it's not the same as
+        # the top-level CVS/Root file.
+        if root != top_root:
+            warn(("root in %s (%s) doesn't match\n" 
+                  "top-level root (%s) (skipping)")
+                  % (dir, root, top_root))
+            continue
+
+        # Checking the Repository file needs to know if it, and the
+        # top-level repository, are absolute or relative.
+        repos_abs = (repos[0] == '/')
+        top_repos_abs = (top_repos[0] == '/')
+
+        # If the CVS/Repository file is absolute (which happens under
+        # older versions of RCS -- at least 1.10.6 has relative
+        # Repository files), then the prefix of the repository directory
+        # must match the directory portion of the root.
+        if repos_abs and repos[0:len(root_dir)] != root_dir:
+            warn(("repository at %s (%s) not under "
+                  "root dir (%s) (skipping)")
+                 % (dir, repos, root_dir))
+            continue
+
+        # If the top-level repository is absolute, but the current one
+        # is not, then force the current repository into compliance with
+        # the top-level repository -- i.e. make it absolute.
+        if top_repos_abs and not repos_abs:
+            repos = root_dir + '/' + repos
+            repos_abs = 1
+
+        # Other way round: make the current repository relative to match
+        # the top-level repository.
+        elif repos_abs and not top_repos_abs:
+            repos = repos[len(root_dir)+1:]
+            repos_abs = 0
+
+        # Now we can make sure that the current repository is valid,
+        # ie. is some descendant of the top-level repository.
+        if repos[0:len(top_repos)] != top_repos:
+            warn(("repository at %s (%s) not under\n"
+                  "top-level repository (%s) (skipping)")
+                  % (dir, repos, top_repos))
+            continue
+
+        # Now, at last we can generate a new repository directory, which
+        # is the point of the whole exercise.  It will be absolute if
+        # the top-level repository (not necessarily the current
+        # repository) is absolute, and relative if the top-level
+        # repository is relative.
+        if repos[0] == '/':
+            new_repos = new_root_dir + repos[len(root_dir):]
+        else:
+            new_repos = repos
+
+        print dir + ":"
+        print "  root: %s -> %s" % (root, new_root)
+        print "  repos: %s -> %s" % (orig_repos, new_repos)
+
+        if not dry_run:
+            write_repos (dir, new_root, new_repos)
+
+    # for dir in cvsdirs
+    
+# main ()    
+
+
+if __name__ == "__main__":
+    (prog, args) = (sys.argv[0], sys.argv[1:])
+    main (prog, args)

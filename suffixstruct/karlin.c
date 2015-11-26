@@ -1,0 +1,216 @@
+/*
+  Copyright by Stefan Kurtz (C) 1999-2003
+  =====================================                                   
+  You may use, copy and distribute this file freely as long as you
+   - do not change the file,
+   - leave this copyright notice in the file,
+   - do not make any profit with the distribution of this file
+   - give credit where credit is due
+  You are not allowed to copy or distribute this file otherwise
+  The commercial usage and distribution of this file is prohibited
+  Please report bugs and suggestions to <kurtz@zbh.uni-hamburg.de>
+*/
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif /* HAVE_CONFIG_H */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include "basic-types.h"
+#include "memory.h"
+
+
+
+#define MAXIT 150    /* Maximum number of iterations used in calculating K */
+
+static Sint gcd (Sint a, Sint b)
+{
+  Sint c;
+
+  if (b < 0)
+  {
+    b = -b;
+  }
+  if (b > a)
+  {
+    c = a;
+    a = b;
+    b = c;
+  }
+  for (; b > 0; b = c)
+  {
+    c = a % b;
+    a = b;
+  }
+  return a;
+}
+
+Sint karlinpp(void *space, Sint low, Sint high, double *pr, 
+                     double *lambda, double *K)
+{
+  Sint i, j, range, lo, hi, first, last;
+  double upval, Sumval, av, sum, *p, *P, *ptrP, *ptr1, *ptr2, *ptr1e, newval,
+         Ktmp;
+
+  /* Check that scores and their associated probabilities are valid     */
+
+  if (low >= 0)
+  {
+    fprintf(stderr, "Lowest score must be negative\n");
+    return (Sint) -1;
+  }
+  for (i = range = high - low; i > -low && !pr[i]; --i)
+    /* Nothing */ ;
+  if (i <= -low)
+  {
+    fprintf(stderr, "A positive score must be possible\n");
+    return -2;
+  }
+  for (sum = 0.0, i = 0; i <= range; sum += pr[i++])
+  {
+    if (pr[i] < 0.0)
+    {
+      fprintf(stderr, "Negative probability %.2f not allowed",pr[i]);
+      return -3;
+    }
+  }
+  if (sum < 0.99995 || sum > 1.00005)
+  {
+    /*DEBUG1(3,"Probabilities sum to %.4f. Normalizing.\n", sum);*/
+  }
+  p = ALLOCMEMORY (space, NULL, double, (Uint) (range+1));
+  if(p == NULL)
+  {
+    return -4;
+  }
+  for (Sumval = (double) low, i = 0; i <= range; ++i)
+  {
+    Sumval += i * (p[i] = pr[i] / sum);
+  }
+  if(Sumval >= 0.0)
+  {
+    fprintf(stderr, "Invalid (non-negative) expected score:  %.3f", Sumval);
+    return -5;
+  }
+
+  /* Calculate the parameter lambda */
+
+  upval = 0.5;
+  do
+  {
+    upval *= 2;
+    ptr1 = p;
+    for (sum = 0.0, i = low; i <= high; ++i)
+    {
+      sum += *ptr1++ * exp (upval * i);
+    }
+  } while (sum < 1.0);
+  for (*lambda = 0.0, j = 0; j < (Sint) 25; ++j)
+  {
+    newval = (*lambda + upval) / 2.0;
+    ptr1 = p;
+    for (sum = 0.0, i = low; i <= high; ++i)
+    {
+      sum += *ptr1++ * exp (newval * i);
+    }
+    if (sum > 1.0)
+    {
+      upval = newval;
+    } else
+    {
+      *lambda = newval;
+    }
+  }
+
+  /* Calculate the pamameter K */
+
+  ptr1 = p;
+  for (av = 0.0, i = low; i <= high; ++i)
+  {
+    av += *ptr1++ * i * exp (*lambda * i);
+  }
+  if (low == (Sint) -1 || high == (Sint) 1)
+  {
+    *K = (high == (Sint) 1) ? av : Sumval * Sumval / av;
+    *K *= 1.0 - exp (-*lambda);
+    free (p);
+    return 0;  /* Parameters calculated successfully */
+  }
+  Sumval = 0.0;
+  lo = 0;
+  hi = 0;
+  P = ALLOCMEMORY(space, NULL, double, (Uint) (MAXIT * range + 1));
+  if(P == NULL)
+  {
+    return (Sint) -6;
+  }
+  for (*P = 1.0, sum = 1.0, j = (Sint) 1; 
+       j <= (Sint) MAXIT && sum > 0.00001; Sumval += sum /= j++)
+  {
+    first = last = range;
+    for (ptrP = P + (hi += high) - (lo += low); ptrP >= P; *ptrP-- = sum)
+    {
+      ptr1 = ptrP - first;
+      ptr1e = ptrP - last;
+      ptr2 = p + first;
+      for (sum = 0.0; ptr1 >= ptr1e;)
+      {
+        sum += *ptr1-- * *ptr2++;
+      }
+      if (first)
+      {
+        --first;
+      }
+      if (((Sint) (ptrP - P)) <= range)
+      {
+        --last;
+      }
+    }
+    for (sum = 0.0, i = lo; i; ++i)
+    {
+      sum += *++ptrP * exp (*lambda * i);
+    }
+    for (; i <= hi; ++i)
+    {
+      sum += *++ptrP;
+    }
+  }
+  if (j > (Sint) MAXIT)
+  {
+    fprintf(stderr, "Value for K may be too large due to insufficient iterations");
+    return -7;
+  }
+  for (i = low; !p[i - low]; ++i)
+    /* Nothing */ ;
+  for (j = -i; i < high && j > (Sint) 1;)
+  {
+    if (p[++i - low] != 0.0)
+    {
+      j = gcd (j, i);
+    }
+  }
+  Ktmp = (double) (j * exp (-2 * Sumval));
+  *K = Ktmp / (av * (1.0 - exp (-*lambda * j)));
+
+  FREEMEMORY(space, P);
+  FREEMEMORY(space, p);
+  return 0;  /* Parameters calculated successfully */
+}
+/*
+Sint karlinunitcostpp(double *lambda, double *K)
+{
+  double pr[] = {0.75, 0.0, 0.0, 0.25};
+  
+  return karlinpp((Sint) -1,(Sint) +2,&pr[0],lambda,K);
+}*/
+
+double significance (double lambda,double K,double multiplier,Sint score)
+{
+  double y;
+
+  y = -lambda * score;
+  y = K * multiplier * exp (y);
+  return exp (-y);
+}

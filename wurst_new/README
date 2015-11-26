@@ -1,0 +1,34 @@
+October 2001
+Top level directory for the "wurst" code.
+
+Directories
+-----------
+matrix
+This holds amino acid substitution matrices.
+
+pod
+This is documentation.
+
+scripts
+Perl / wurst scripts
+
+scripts/optim_seq
+Scripts for optimising parameters for alignment.
+
+seq
+Sequences - do not start putting sequences, even for testing,
+in places like src.
+
+src
+Source code. Within src, there is...
+
+src/Wurst
+which holds the perl extension code, the module file, and the
+interface files.
+
+src/Simplex
+Module for simplex optimisation.
+
+struct
+Structures. Real structures live in other places, so this is
+for debugging coordinates.

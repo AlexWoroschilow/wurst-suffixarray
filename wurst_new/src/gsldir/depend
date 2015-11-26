@@ -1,0 +1,38 @@
+blas.o: blas.c gsl_math.h gsl_sys.h gsl_machine.h gsl_precision.h \
+  gsl_types.h gsl_nan.h gsl_errno.h gsl_cblas.h gsl_blas_types.h \
+  gsl_blas.h gsl_vector_double.h gsl_check_range.h gsl_block_double.h \
+  gsl_matrix_double.h ../mprintf.h
+error.o: error.c gsl_errno.h gsl_types.h gsl_message.h
+permutation_init.o: permutation_init.c gsl_errno.h gsl_types.h \
+  gsl_permutation.h gsl_check_range.h
+lu.o: lu.c gsl_math.h gsl_sys.h gsl_machine.h gsl_precision.h gsl_types.h \
+  gsl_nan.h gsl_vector_double.h gsl_errno.h gsl_check_range.h \
+  gsl_block_double.h gsl_matrix_double.h gsl_blas.h gsl_blas_types.h \
+  gsl_cblas.h gsl_linalg.h gsl_mode.h gsl_permutation.h ../mprintf.h \
+  templates_on.h templates_off.h
+init.o: init.c gsl_vector_double.h gsl_types.h gsl_errno.h \
+  gsl_check_range.h gsl_block_double.h templates_on.h init_source.c \
+  ../e_malloc.h templates_off.h
+view.o: view.c gsl_vector_double.h gsl_types.h gsl_errno.h \
+  gsl_check_range.h gsl_block_double.h view.h templates_on.h \
+  view_source.c templates_off.h
+strerror.o: strerror.c gsl_errno.h gsl_types.h
+block_init.o: block_init.c gsl_block.h gsl_block_double.h gsl_errno.h \
+  gsl_types.h templates_on.h block_init_source.c ../e_malloc.h \
+  templates_off.h
+matrix.o: matrix.c gsl_errno.h gsl_types.h gsl_matrix_double.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h templates_on.h \
+  matrix_source.c templates_off.h
+matrix_view.o: matrix_view.c gsl_errno.h gsl_types.h gsl_matrix_double.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h matrix_view.h \
+  templates_on.h
+matrix_init.o: matrix_init.c gsl_errno.h gsl_types.h gsl_matrix_double.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h templates_on.h \
+  matrix_init_source.c templates_off.h
+matrix_rowcol.o: matrix_rowcol.c gsl_math.h gsl_sys.h gsl_machine.h \
+  gsl_precision.h gsl_types.h gsl_nan.h gsl_matrix_double.h gsl_errno.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h matrix_view.h \
+  templates_on.h matrix_rowcol_source.c templates_off.h
+matrix_swap.o: matrix_swap.c gsl_matrix_double.h gsl_types.h gsl_errno.h \
+  gsl_check_range.h gsl_vector_double.h gsl_block_double.h templates_on.h \
+  matrix_swap_source.c templates_off.h

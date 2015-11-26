@@ -1,0 +1,12 @@
+000000004ac59c83000000000000304d 8ece4b06e5b73b959cc5943591f5c218 ffffffffffffffffffffffffffffffff 0 /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/fio.o
+000000000cd0648a0000000000000802 0cf407eef1d553f48281facc051e932b ffffffffffffffffffffffffffffffff 3904 /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/error.o
+000000004ac59c810000000000006285 5f2fac1eb58ff7f1d531eed59a5eff3a ffffffffffffffffffffffffffffffff 0 /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/e_malloc.o
+000000004bcb242b0000000000006319 3f2e88e270eca09e5d2200dcecbc1efb ffffffffffffffffffffffffffffffff 0 /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coordinfo.o
+000000004bcb2037000000000000f009 3e277f110fba1d09af2d37f38786e68d ffffffffffffffffffffffffffffffff 0 /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/coord.o
+ffffffffffffffffffffffffffffffff 023a9c195ecad0cd69950f3ea97fb6df ffffffffffffffffffffffffffffffff 102 /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator
+db1d7a40f298727556ac49f9eab93bef 18f35460fc15cab31f18e6653b095c06 ffffffffffffffffffffffffffffffff 0 /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/MacOS/ql-pdb
+0000000006d8de8c0000000000000cdb 495fb1691bca886ebab173d73c163275 ffffffffffffffffffffffffffffffff 5572 /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GenerateThumbnailForURL.o
+000000000b85f2c5000000000004b0ac a4517ff3a6d7e77cb342dc9226677a7a ffffffffffffffffffffffffffffffff 41944 /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/GeneratePreviewForURL.o
+000000004d909e930000000000000176 b22dd5e724535b1075c0361bbf1ddb25 ffffffffffffffffffffffffffffffff 374 /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 c328df9e9311d0fe153430a8866c7db8 ffffffffffffffffffffffffffffffff 1586 /Users/margraf/code/ql-pdb/build/Debug/ql-pdb.qlgenerator/Contents/Info.plist
+000000004d48162a000000000000258b 3613b4da446457f15f5fe6bcf0a63f42 ffffffffffffffffffffffffffffffff 12524 /Users/margraf/code/ql-pdb/build/ql-pdb.build/Debug/ql-pdb.build/Objects-normal/x86_64/main.o

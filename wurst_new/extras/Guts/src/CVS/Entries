@@ -1,0 +1,19 @@
+/Makefile/1.2/Fri Jul  9 15:13:28 2004//
+/coord_deletion.c/1.2/Fri Aug 20 16:52:19 2004//
+/coord_deletion_i.h/1.2/Wed Sep 29 15:49:04 2004//
+/mcigraph_io.c/1.1/Tue Jun 29 12:44:37 2004//
+/mcigraph_io_i.h/1.1/Tue Jun 29 12:44:38 2004//
+/model_pscmp.c/1.1/Tue Jun 29 12:44:38 2004//
+/model_pscmp_i.h/1.1/Tue Jun 29 12:44:38 2004//
+/pair_setshft.c/1.1/Fri Jul  9 14:54:45 2004//
+/pair_setshft_i.h/1.1/Fri Jul  9 14:54:57 2004//
+/pair_settrim.c/1.2/Fri Jul  9 15:12:53 2004//
+/pair_settrim_i.h/1.1/Fri Jul  9 15:14:56 2004//
+/pair_setxch.c/1.1/Tue Jun 29 12:44:38 2004//
+/pair_setxch_i.h/1.1/Tue Jun 29 12:44:38 2004//
+/scoranlys.c/1.1/Tue Jun 29 12:44:38 2004//
+/scoranlys_i.h/1.1/Tue Jun 29 12:44:38 2004//
+/seqprof_trim.c/1.3/Fri Aug 20 16:52:36 2004//
+/seqprof_trim_i.h/1.2/Fri Aug 20 16:52:52 2004//
+/wurstguts_i.h/1.2/Fri Jul  9 14:53:00 2004//
+D/Wurst////

@@ -1,0 +1,33 @@
+
+/*
+ *  wurstimbiss.rescue.c
+ *  snippets 
+ *
+ *  @author Steve Hoffmann
+ *  @email shoffmann@zbh.uni-hamburg.de
+ *  @date 04/03/07 15:59:33 CEST
+ *  
+ */
+
+
+
+		 /*
+	  if(verbose_flag) {
+	  	printf("lambda: %19.16e\n", info->lambda);
+	  	printf("check: %19.16e\n", 
+			checklambda(info->scr, alphabet->domainsize, info->sf, 
+			  				avgsum, info->lambda));
+	   }
+	  */
+	  /*info->H= relentropy(info->sortind, info->scr, alphabet->domainsize,
+				info->scrf, info->lambda);
+	  info->K=entropyK(info->sortind, info->scr, alphabet->domainsize, 
+		  		avgsum, info->scrf, info->lambda, info->H);
+	  printf("K:%19.16e\n", info->K);
+	  printf("inputscr: %f\n", inputscr);
+	  printf("exp: %19.16e\n", exp(-info->lambda*inputscr));
+	  printf("p:%19.16e\n", info->K*exp(-info->lambda*inputscr));
+	*/
+
+
+
